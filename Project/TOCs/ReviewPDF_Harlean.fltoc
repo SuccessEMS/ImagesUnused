@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Release Notes_WebApp_U26"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSWebApp.htm"></TocEntry>
+  <TocEntry
+    Title="Release Notes_Kiosk_U26"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSKioskApp.htm" />
+</CatapultToc>

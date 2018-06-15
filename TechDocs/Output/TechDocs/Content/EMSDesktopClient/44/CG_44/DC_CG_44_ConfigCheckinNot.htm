@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="desktopClient _Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-has-content-body="True" data-mc-community-features="disabled" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="print" data-mc-toc-path="Older Releases|Version 44|EMS Desktop Client Configuration Guide (V44)|Core Configuration &gt; Booking Elements">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Configure Check-in Notification Rules (Excludes Professional)</title>
+        <link rel="icon" href="../../../Resources/Images/favicon.png" />
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link href="../../V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/DTC_V44_CGBookElements1.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="../../../Home.htm" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="2" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="How Can We Help You?" />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="How Can We Help You?">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <div class="content">
+                                <div id="contentBody">
+                                    <div class="row collapse">
+                                        <div class="topichero">
+                                            <div class="title-text">
+                                                <form class="search" action="#">
+                                                    <div class="search-bar search-bar-container needs-pie _Skins_HomeSearchBar mc-component">
+                                                        <input class="search-field needs-pie" type="search" placeholder="What can we help you find?" />
+                                                        <div class="search-filter-wrapper">
+                                                            <div class="search-filter">
+                                                                <div class="search-filter-content">
+                                                                    <ul>
+                                                                        <li>All Files</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-submit-wrapper" dir="ltr">
+                                                            <div class="search-submit" title="How Can We Help You?">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="nocontent">
+                                                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                </div>
+                                            </div>
+                                            <div class="sideContent small-3 columns" id="smartmenu-accordion">
+                                                <!--	<MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: True;mc-include-parent: False;mc-include-siblings: False;mc-include-children: True;" class="menu" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/Master.fltoc" />-->
+                                                <ul class="nocontent menu _Skins_SideMenu mc-component" data-mc-linked-toc="Data/Tocs/Icon_DesktopClient.js" data-mc-side-menu="True" data-mc-max-depth="-1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="False" data-mc-include-siblings="False" data-mc-include-parent="False" data-mc-toc="True">
+                                                </ul>
+                                            </div>
+                                            <div class="small-9 columns right-content">
+                                                <h1 class="Heading1">Configure Check-in Notification Rules (Excludes Professional)</h1>
+                                                <p>Check-in Notification Rules help you automate the process of&#160;reminding users to check in and managing no-shows.&#160;You configure Check-in Notification rules based on rooms, statuses, event types, and/or group types. When you configure a Check-in Notification rule, you can configure it generate an&#160;email&#160;to remind users to check in and to cancel no-showed events.&#160;To do this for&#160;group bookings, all the criteria you specify with these rules must be met. For example, if you specify "Room 100, Confirmed status, Analyst group type," then a Confirmed meeting for a Partner group type in Room 100 does not result in a notification being generated.</p>
+                                                <p>Note:&#160;For notification emails to be sent, the EMS Check-in&#160;Notification Service must be installed and configured. Refer to the EMS Installation instructions for details.</p>
+                                                <ol start="1">
+                                                    <li value="1">On the&#160;menu bar, click Configuration &gt; Administration &gt; Check-in Notification Rules.&#160;The Check-in Notification Rules window opens. This window lists all the Check-in&#160;notification rules that are currently configured in your EMS database and that have a status of Active.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../Resources/Images/DTC_V44_CGBookElements/Configuring Check in Notification.png" alt="https://success.emssoftware.com/@api/deki/files/1374/Check-In_Notification_2.png?revision=1&amp;size=bestfit&amp;width=368&amp;height=396" />
+                                                </p>
+                                                <p>Tips:&#160;You can view all Check-in notification rules in your EMS database, regardless of status, under Show, click Inactive.</p>
+                                                <p>The remainder of this procedure describes how to configure a Check-in notification rule “from scratch.” You can also configure a Check-in notification rule by copying an existing rule. Select the notification rule that you want to copy, click Copy, and then go to Step 3.</p>
+                                                <ol start="2">
+                                                    <li value="2">Click New.&#160;The Check-in Notification Rule dialog box opens. The Check-in Notification Rule tab is the active tab.&#160;</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../Resources/Images/DC_CG_44_ConfigCheckinNot1.png" alt="https://success.emssoftware.com/@api/deki/files/1375/Check-In_Notification.png?revision=1&amp;size=bestfit&amp;width=772&amp;height=729" />
+                                                </p>
+                                                <ol start="3">
+                                                    <li value="3">Enter the information for the new Check-in&#160;Notification rule.</li>
+                                                </ol>
+                                                <table style="mc-table-style: url('../../V44.1/Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+                                                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                                                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                                                    <thead>
+                                                        <tr class="TableStyle-PatternedRows-Head-Header1">
+                                                            <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                                                                <p>Option</p>
+                                                            </th>
+                                                            <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                                                                <p>Description</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Description</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>The name or the description for the notification rule.</p>
+                                                                <p>Note:&#160;The description can be a maximum of 50 characters, including spaces.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Apply Rule</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>When to apply the rule; this&#160;determines when the Check-in notification rule will be applied and trigger. This can be either before or after the Booking Event Start Time.&#160;</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Change Status</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Select this option if the group’s bookings are to be changed to the status selected on the No Show Status dropdown list.</p>
+                                                                <p>Note: If the appropriate status is not available, you can configure it. See&#160;“Configuring Statuses”.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>No Show Status</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>The status to which the group’s bookings are changed if the group “no-shows” (do not check in within the allotted time).</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Cancel Reason</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Optional; available only if the No Show Status is a Cancel Status type. Select a reason for cancelling the “no-show” group.</p>
+                                                                <p>Note: If the appropriate cancel reason is not available, you can configure it. See&#160;“Configuring Cancel Reasons”.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Send Email</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>If this box is checked it will send a notification email to the selected party/parties (Group, 1st Contact, 2nd Contact, Web User).</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Header Message</p>
+                                                                <p>Footer Message</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Select a header and/or footer message that is to be displayed on every Check-in notification that is sent.</p>
+                                                                <p>Note:&#160;If the appropriate message is not available, you can configure it. See&#160;“Configuring Messages”.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Include Web App Link</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Includes a link to the reservation summary in EMS Web App.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Include Cancel Link</p>
+                                                                <p>Include Check In Link</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Available only if Change Status is not selected. Provides links in the notification email so that a user can cancel or check into the booking directly from the notification email.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Email Group</p>
+                                                                <p>Email 1st Contact</p>
+                                                                <p>Email 2nd Contact</p>
+                                                                <p>Email Web User</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Select the appropriate options to indicate to whom the Check-in notification is to be sent.</p>
+                                                                <p>Note: If the appropriate group, contact, and/or web user is not available, you can configure it.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Email From</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Enter the email address that is to be displayed in the Email From field for the group notification.</p>
+                                                                <p>Note:&#160;If you leave the Email From field blank, then the Email From address that was defined during the installation and configuration of the EMS Email Notification Service is used.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                                                                <p>Email Subject Line</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                                                                <p>Enter the text that is to be displayed in the email subject line. Variables pull in selected data from the event for which the notification is being emailed. You can include variables as described in the Legend. For example,%2% is the code for the group name, so “Notification for %3%” would result in “Notification for Consumer Electronics Association” being displayed in the subject line if "Consumer Electronics Association" was the name of the event.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <ol start="4">
+                                                    <li value="4">Do one or more or all the following to set the criteria to trigger&#160;a notification:</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">Open the Rooms tab and do the following to search for the rooms for which the notification is to apply:</li>
+                                                    <li value="2">On the Building dropdown list, select one of the following—(all) buildings, a specific building, a specific area, or a specific view. If the appropriate building, area, or view is not available, you can configure it.</li>
+                                                    <li value="3">On the Room Type dropdown list, leave the default value of (all), or select a specific room type.</li>
+                                                    <li value="4">On the Available list, select the room, or CTRL-click to select multiple rooms, and then click the Move button (&gt;) to move the selected rooms to the Selected list. If the appropriate room type is not available, you can configure it.</li>
+                                                    <li value="5">Open the Statuses tab, and on the Available list, select the status, or CTRL-click to select the multiple statuses, and then click the Move button (&gt;) to move the selected statuses to the Selected list. If the appropriate status type is not available, you can configure it.</li>
+                                                    <li value="6">Open the Event Types tab, and on the Available list, select the event type, or CTRL-click to select the multiple event types, and then click the Move button (&gt;) to move the selected event types to the Selected list. If the appropriate event type is not available, you can configure it.</li>
+                                                    <li value="7">Open the Group Types tab, and on the Available list, select the group type, or CTRL-click to select multiple group types, and then click the Move button (&gt;) to move the selected group types to the Selected list. If the appropriate group type is not available, you can configure it.</li>
+                                                </ul>
+                                                <ol start="5">
+                                                    <li value="5">Click&#160;OK.&#160;The Check-in Notification Rule dialog box closes. You return to the Check-in Notification Rules window with the newly configured notification rule automatically selected.</li>
+                                                </ol>
+                                            </div>
+                                            <!-- <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Back Separator Print Forward;" />-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer center">
+                                <div class="container">
+                                    <div class="HomeMasterPageFooter outer-row">
+                                        <div><a href=""><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../../ContactUs.htm"> Contact </a>|<a href="mailto:success@emssoftware.com?subject=Documentation Feedback"> Feedback</a></a>
+                                            <p class="Copyright">© <span class="GeneralYear">2018</span> <span class="GeneralMy Company">EMS&#160;Software</span>, LLC. All Rights Reserved.</p>
+                                        </div>
+                                        <div class="footer-icons"><a href="" class="facebook"></a><a href="" class="twitter"></a><a href="" class="youtube"></a><a href="" class="linkedin"></a><a href="" class="googleplus"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script src="../../../Resources/Scripts/sidemenu.js">
+                            </script>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

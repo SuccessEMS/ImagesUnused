@@ -1,0 +1,263 @@
+/*<meta />*/
+
+@media only screen and (max-width: 767px)
+{
+	nav.title-bar
+	{
+		background-repeat: no-repeat;
+		background-position: center top;
+		background: #f2f2f1;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(top, transparent 0%,transparent 100%);
+	}
+
+	.title-bar-section a.logo
+	{
+		background-position: center center;
+		background-repeat: no-repeat;
+		width: 319px;
+		height: 55px;
+		top: 0;
+		bottom: auto;
+		margin-top: 0;
+		background: transparent url('Images/EMS_Logo_Doc.png') no-repeat center center;
+		background: url('Images/EMS_Logo_Doc.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/EMS_Logo_Doc.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url('Images/EMS_Logo_Doc.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/EMS_Logo_Doc.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/EMS_Logo_Doc.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/EMS_Logo_Doc.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+	}
+
+	.search-bar .search-submit
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		height: 45px;
+	}
+
+	.search-bar .search-filter
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		height: 45px;
+		background: #ffffff url('Images/FilterOutline.png') no-repeat center center;
+	}
+
+	.search-input
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.off-canvas.position-right
+	{
+		background-position: top center;
+	}
+
+	.off-canvas.position-right ul ul
+	{
+		background-position: top center;
+	}
+
+	.off-canvas.position-left
+	{
+		background-position: top center;
+	}
+
+	.off-canvas.position-left ul ul
+	{
+		background-position: top center;
+	}
+
+	.title-bar-section.middle > div
+	{
+		min-height: 55px;
+	}
+
+	.off-canvas-wrapper-inner nav.title-bar .outer-row
+	{
+		
+	}
+
+	.title-bar .menu-icon span
+	{
+		top: 0px;
+		background: transparent url('Images/menu.png') no-repeat center center;
+	}
+
+	.off-canvas-wrapper-inner .outer-row
+	{
+		
+	}
+
+	.main-section > .outer-row
+	{
+		
+	}
+
+	.off-canvas
+	{
+		background-color: #082a48;
+	}
+
+	.off-canvas ul ul
+	{
+		background-color: #082a48;
+	}
+
+	ul.off-canvas-list li a
+	{
+		border-top: none 0px transparent;
+		border-bottom: solid 1px #3c556c;
+		color: #ffffff;
+		font-family: 'Open Sans';
+		font-size: 18px;
+	}
+
+	ul.off-canvas-list ul > li > a
+	{
+		
+	}
+
+	ul.off-canvas-list ul ul > li > a
+	{
+		
+	}
+
+	ul.off-canvas-list ul ul ul > li > a
+	{
+		
+	}
+
+	ul.off-canvas-list ul ul ul ul > li > a
+	{
+		
+	}
+
+	ul.off-canvas-list li.js-drilldown-back > a
+	{
+		
+	}
+
+	ul.off-canvas-list li a:hover
+	{
+		color: #666666;
+		background-color: #ffffff;
+	}
+
+	ul.off-canvas-list ul > li > a:hover
+	{
+		background-color: #ffffff;
+	}
+
+	ul.off-canvas-list ul ul > li > a:hover
+	{
+		background-color: #ffffff;
+	}
+
+	ul.off-canvas-list ul ul ul > li > a:hover
+	{
+		background-color: #ffffff;
+	}
+
+	ul.off-canvas-list ul ul ul ul > li > a:hover
+	{
+		background-color: #ffffff;
+	}
+
+	ul.off-canvas-list li.js-drilldown-back > a:hover
+	{
+		background-color: #ffffff;
+	}
+
+	nav.title-bar .menu-icon
+	{
+		left: -14px;
+	}
+
+	.row.nav-search
+	{
+		margin-top: 5px;
+		margin-bottom: 40px;
+	}
+
+	.search-bar
+	{
+		width: 90%;
+	}
+
+	.search-bar .search-field
+	{
+		height: 45px;
+		font-size: 12px;
+		padding-right: 106px;
+		background-color: #ffffff;
+	}
+
+	.search-filter-content
+	{
+		top: 45px;
+		background-color: #ffffff;
+	}
+
+	.search-bar .search-filter.open
+	{
+		background-color: #ffffff;
+	}
+
+	.search-bar .search-filter:hover
+	{
+		background-color: #ffffff;
+	}
+
+	.search-bar .search-filter.selected
+	{
+		background: transparent url('Images/Filter.png') no-repeat center center;
+	}
+
+	.search-filter-content ul li:hover
+	{
+		background-color: #ffffff;
+	}
+
+	.search-bar .search-field::-webkit-input-placeholder
+	{
+		
+	}
+
+	.search-bar .search-field::-moz-placeholder
+	{
+		
+	}
+
+	.search-bar .search-field:-moz-placeholder
+	{
+		
+	}
+
+	.search-bar .search-field:-ms-input-placeholder
+	{
+		
+	}
+
+	.search-bar.search-bar-container .search-submit
+	{
+		background-color: transparent;
+	}
+
+	.search-bar .search-filter-wrapper
+	{
+		right: 56px;
+	}
+
+	.search-bar.search-bar-container .search-submit:hover
+	{
+		background-color: transparent;
+	}
+}
+

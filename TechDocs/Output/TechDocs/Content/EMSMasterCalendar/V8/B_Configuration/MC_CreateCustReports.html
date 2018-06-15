@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="print" data-mc-toc-path="Configuration Guides|EMS Master Calendar">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Create Custom Reports in Master Calendar</title>
+        <link rel="icon" href="../../../Resources/Images/favicon.png" />
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="../../../Home.htm" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="2" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="How Can We Help You?" />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="How Can We Help You?">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <div class="content">
+                                <div id="contentBody">
+                                    <div class="row collapse">
+                                        <div class="topichero">
+                                            <div class="title-text">
+                                                <form class="search" action="#">
+                                                    <div class="search-bar search-bar-container needs-pie _Skins_HomeSearchBar mc-component">
+                                                        <input class="search-field needs-pie" type="search" placeholder="What can we help you find?" />
+                                                        <div class="search-filter-wrapper">
+                                                            <div class="search-filter">
+                                                                <div class="search-filter-content">
+                                                                    <ul>
+                                                                        <li>All Files</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-submit-wrapper" dir="ltr">
+                                                            <div class="search-submit" title="How Can We Help You?">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="nocontent">
+                                                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                </div>
+                                            </div>
+                                            <div class="sideContent small-3 columns" id="smartmenu-accordion">
+                                                <!--	<MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: True;mc-include-parent: False;mc-include-siblings: False;mc-include-children: True;" class="menu" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/Master.fltoc" />-->
+                                                <ul class="nocontent menu _Skins_SideMenu mc-component" data-mc-linked-toc="Data/Tocs/Icon_MC.js" data-mc-side-menu="True" data-mc-max-depth="-1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="False" data-mc-include-siblings="False" data-mc-include-parent="False" data-mc-toc="True">
+                                                </ul>
+                                            </div>
+                                            <div class="small-9 columns right-content">
+                                                <h1>Create Custom Reports in Master Calendar
+		</h1>
+                                                <p>A Custom Reports function is available from the Admin menu. You use this function to create custom reports for retrieving information from your Master Calendar database. When you create a custom report, you can name and save the custom report so that you can run the custom report at any time that you choose. You can create a custom report from “scratch,” or you can create a custom report by copying an existing custom report and editing the copied custom report as needed. You can also edit a custom report, delete a custom report, print a custom report, and export custom report results to a PDF, XLS, or CSV file.</p>
+                                                <p>This topic provides information about the following:</p>
+                                                <ul class="unorder-list">
+                                                    <li value="1"><a href="#Create_Custom_Report_from_Scratch">Create&#160;a Custom Report “from Scratch”</a>
+                                                    </li>
+                                                    <li value="2"><a href="#Report_Builder_Tabs">Report Builder Tabs</a>
+                                                    </li>
+                                                    <li value="3"><a href="#Creating_custom_report_by_copying_an_existing_custom_report">Create&#160;a Custom Report by Copying an Existing Custom Report</a>
+                                                    </li>
+                                                    <li value="4"><a href="#Editing_custom_report">Edit&#160;a Custom Report</a>
+                                                    </li>
+                                                    <li value="5"><a href="#Deleting_custom_report">Delete&#160;a Custom Report</a>
+                                                    </li>
+                                                    <li value="6"><a href="#Running,_printing,_and_exporting_a_custom_report">Run, Print, and Export a Custom Report</a><![CDATA[	
+]]></li>
+                                                </ul>
+                                                <h2><a name="Create_Custom_Report_from_Scratch"></a>Create&#160;a Custom Report “from Scratch”</h2>
+                                                <ol class="number-list">
+                                                    <li value="1">On the Admin menu, point to <span class="bold">Events &amp; Special Dates</span>, and then click <span class="bold">Custom Reports</span>.&#160;The Custom Reports page opens. This page always contains the Add Custom Reports option. It also displays a list of custom reports that have been previously defined in your Master Calendar database.<p><img src="../images/B_Configuration/MC_CreateCustReports_AddCustomReportsOption.png" alt="" /></p></li>
+                                                    <li value="2"> 
+		Click <span class="bold">Add Custom Reports</span>.&#160;The Report Builder dialog box opens. The <span class="bold">Details </span>tab is the opened tab. You use the options on the different tabs of this dialog box to name and define the custom report.<p><img src="../images/B_Configuration/MC_CreateCustReports_DetailsTab.png" alt="" /></p></li>
+                                                    <li value="3">
+ 
+		Enter the information for the custom report on each tab (using subsequent sections of this topic). </li>
+                                                    <li value="4">
+		Do one of the following:<ul><li value="1">
+		Click <span class="bold">Save </span>to close the Report Builder dialog box and save the named custom report. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed.</li><li value="2">
+	Open the <span class="bold">Results </span>tab, and then click <span class="bold">Preview </span>to run the custom report immediately and view the results on the tab. You can then click <span class="bold">Save </span>to save the named custom report and close the Report Builder dialog box. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed. </li></ul></li>
+                                                </ol>
+                                                <h2><a name="Report_Builder_Tabs"></a>Report Builder Tabs</h2>
+                                                <p>The following topics contain instructions for the Report Builder tabs:&#160;</p>
+                                                <ul class="unorder-list">
+                                                    <li value="1"><a href="#Details_tab">Details Tab</a>
+                                                    </li>
+                                                    <li value="2"><a href="#Display_Fields_tab">Display Field Tab</a>
+                                                    </li>
+                                                    <li value="3"><a href="#Filter_tab">Filter Tab</a>
+                                                    </li>
+                                                    <li value="4"><a href="#Sort_tab">Sort Tab</a>
+                                                    </li>
+                                                </ul>
+                                                <h3><a name="Details_tab"></a>Details tab</h3>
+                                                <p>
+                                                    <img src="../images/B_Configuration/MC_CreateCustReports_DetailsTab.png" alt="" />
+                                                </p> <ol class="number-list"><li value="1">On the <span class="bold">Details </span>tab, name and define the custom report.<table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');"><col class="TableStyle-PatternedRows-Column-Regular" /><col class="TableStyle-PatternedRows-Column-Regular" /><thead><tr class="TableStyle-PatternedRows-Head-Header1"><th class="TableStyle-PatternedRows-HeadE-Regular-Header1"><p>Option</p></th><th class="TableStyle-PatternedRows-HeadD-Regular-Header1"><p>Description</p></th></tr></thead><tbody><tr class="TableStyle-PatternedRows-Body-LightRows" /><tr class="TableStyle-PatternedRows-Body-DarkerRows"><td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows"><p>Description</p></td><td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows"><p>Required. Name or title for the custom report (custom report).</p><div class="note-box note"><p>Note: The name can be a maximum of 50 characters, including spaces.</p></div></td></tr><tr class="TableStyle-PatternedRows-Body-LightRows"><td class="TableStyle-PatternedRows-BodyB-Regular-LightRows"><p>Return First “xx” Number of Records</p></td><td class="TableStyle-PatternedRows-BodyA-Regular-LightRows"><p>To limit the number of records that the custom report returns, select this option, and then enter the number of records in the field.</p></td></tr></tbody></table></li><li value="2">Continue with any other configuration for the custom report as needed, or if the configuration is complete, do one of the following:<ul><li value="1">Click <span class="bold">Save </span>to close the Report Builder dialog box and save the named custom report. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed.</li><li value="2">Open the <span class="bold">Results </span>tab, and then click <span class="bold">Preview </span>to run the custom report immediately and view the results on the tab. You can then click <span class="bold">Save </span>to save the named custom report and close the Report Builder dialog box. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed.</li></ul></li></ol><h3><a name="Display_Fields_tab"></a>Display Fields tab</h3><p><img src="../images/B_Configuration/MC_CreateCustReports_DisplayFieldsTab.png" alt="" /></p><ol class="number-list"><li value="1">Open the <span class="bold">Display Fields</span> tab and select the fields (CTRL-click to select multiple fields) that are to be displayed in the custom report results, and then click the <span class="bold">Add </span>arrow&#160;(<span class="bold">&gt;</span>) to move the selected fields to the Selected list.&#160;The fields are displayed in the custom report results in the order in which they are listed in the Selected list.<div class="note-box tip"><p>Tip: If you are copying an existing custom report, then when the <span class="bold">Display Fields</span> tab opens, the Selected list is already populated with a list of fields. You can select one or more of these fields in the Selected list and then click the <span class="bold">Remove </span>button (<span class="bold">&lt;</span>) to move these fields back to the Available list. To remove all fields in a single step, click the <span class="bold">Remove All</span> (<span class="bold">&lt;&lt;</span>) button.</p></div></li><li value="2"> Optionally, to change the order of the fields, select a field and then click <span class="bold">Move Up/Move Down</span> as needed.</li><li value="3">Continue with any other configuration for the custom report as needed, or if the configuration is complete, do one of the following:<ul><li value="1">Click <span class="bold">Save </span>to close the Report Builder dialog box and save the named custom report. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed.</li><li value="2">Open the <span class="bold">Results </span>tab, and then click <span class="bold">Preview </span>to run the custom report immediately and view the results on the tab. You can then click <span class="bold">Save </span>to save the named custom report and close the Report Builder dialog box. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed.</li></ul></li></ol><h3><a name="Filter_tab"></a>Filter tab</h3><p><img src="../images/B_Configuration/MC_CreateCustReports_FilterTab.png" alt="" /></p> <ol class="number-list"><li value="1">Open the <span class="bold">Filter Fields</span> tab, and for each field that is to define the custom report, select the field, and then click the Add arrow&#160;(&gt;).</li><li value="2">For each field that you select, a dialog box opens in which you must specify the allowed values for the field. After you specify the allowed values and click <span class="bold">OK</span>, the dialog box closes, and the selected field is moved to the Filter list.&#160;If you are copying an existing custom report, then when the Filter tab opens, the Filter list is already populated. You can select one or more of the fields in the Filter Summary list and then click the Remove button (&lt;) to move these fields back to the Available list. If you want to use the same Filter fields in the “new” custom report, but with different values, you cannot change the values directly. You must move the appropriate fields back to the Available list, then select the fields again to change their values.</li><li value="3">Continue with any other configuration for the custom report as needed, or if the configuration is complete, do one of the following:<ul><li value="1">Click <span class="bold">Save </span>to close the Report Builder dialog box and save the named custom report. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed.</li><li value="2">Open the <span class="bold">Results</span> tab, and then click Preview to run the custom report immediately and view the results on the tab. You can then click <span class="bold">Save </span>to save the named custom report and close the Report Builder dialog box. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed.</li></ul></li></ol><h3><a name="Sort_tab"></a>Sort tab</h3><p><img src="../images/B_Configuration/MC_CreateCustReports_SortTab.png" alt="" /></p><ol class="number-list"><li value="1">Open the <strong>Sort </strong>tab, select the field or CTRL-click to select the multiple fields by which the custom report results are to be sorted and then click the <strong>Add </strong>arrow&#160;(&gt;) to move the fields to the Selected list.<div class="note-box tip">Tip: If you are copying an existing custom report, then when the <span class="bold">Sort </span>tab opens, the Selected list is already populated with a list of fields. You can select one or more of these fields in the Selected list and then click the <span class="bold">Remove </span>button (<span class="bold">&lt;</span>) to move these fields back to the Available list. To remove all fields in a single step, click the <span class="bold">Remove All</span> (<span class="bold">&lt;&lt;</span>) button.</div></li><li value="2">Continue with any other configuration for the custom report as needed, or if the configuration is complete, do one of the following:<ul><li value="1">Click <span class="bold">Save </span>to close the Report Builder dialog box and save the named custom report. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed.</li><li value="2">Open the <span class="bold">Results </span>tab, and then click <span class="bold">Preview</span> to run the custom report immediately and view the results on the tab. You can then click <span class="bold">Save </span>to save the named custom report and close the Report Builder dialog box. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed.</li></ul></li></ol><h2><a name="Creating_custom_report_by_copying_an_existing_custom_report"></a>Create&#160;a custom report by copying an existing custom report</h2> <ol class="number-list"><li value="1">On the Admin menu, point to <span class="bold">Events &amp; Special Dates</span>, and then click <span class="bold">Custom Reports</span>.&#160;The Custom Reports page opens. This page always contains the Add Custom Reports option. It also displays a list of custom reports that have been previously defined in your Master Calendar database.<p><img src="../images/B_Configuration/MC_CreateCustReports_AddCustomReportsOption.png" alt="" /></p></li><li value="2">Click <span class="bold">Copy </span>for the custom report that you are copying.&#160;A message opens indicating that the selected report was copied.</li><li value="3">Click <span class="bold">OK </span>to close the message and return to the Custom Reports page.&#160;An entry for the copied custom report is displayed on the Custom Reports page as<br />&lt;custom report Name&gt; Copy.</li><li value="4">Click <span class="bold">Edit </span> next to the copied custom report that you are editing.&#160;The Report Builder dialog box opens. All the tabs are populated with the information for the selected custom report.</li><li value="5">Edit the custom report as necessary, including one or more of the following:</li><li value="6">Do one of the following:<ul><li value="1">Click <span class="bold">Save </span>to close the Report Builder dialog box and save the named custom report. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed.</li><li value="2">Open the <span class="bold">Results </span>tab, and then click <span class="bold">Preview </span>to run the custom report immediately and view the results on the tab. You can then click <span class="bold">Save </span>to save the named custom report and close the Report Builder dialog box. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed.</li></ul></li></ol><h2><a name="Editing_custom_report"></a>Edit&#160;a custom report</h2><ol class="number-list"><li value="1">On the Admin menu, point to <span class="bold">Events &amp; Special Dates</span>, and then click <span class="bold">Custom Reports</span>.&#160;The Custom Reports page opens. This page always contains the Add Custom Reports option. It also displays a list of custom reports that have been previously defined in your Master Calendar database.<p><img src="../images/B_Configuration/MC_CreateCustReports_CustomReportsPg.png" alt="" /></p></li><li value="2">Click <span class="bold">Edit </span> next to the custom report that you are editing.&#160;The Report Builder dialog box opens. All the tabs are populated with the information for the selected custom report.</li><li value="3">Edit the custom report as necessary including one or more of the following:</li><li value="4">Do one of the following:<ul><li value="1">Click <span class="bold">Save </span>to close the Report Builder dialog box and save the named custom report. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed.</li><li value="2">Open the <span class="bold">Results </span>tab, and then click <span class="bold">Preview </span>to run the custom report immediately and view the results on the tab. You can then click <span class="bold">Save </span>to save the named custom report and close the Report Builder dialog box. The named custom report is displayed on the Custom Reports page. You can run this custom report at any later date when needed.</li></ul></li></ol><h2><a name="Deleting_custom_report"></a>Delete&#160;a custom report</h2><ol><li value="1">On the Admin menu, point to <span class="bold">Events &amp; Special Dates</span>, and then click <span class="bold">Custom Reports</span>.&#160;The Custom Reports page opens. This page always contains the Add Custom Reports option. It also displays a list of custom reports that have been previously defined in your Master Calendar database.<p><img src="../images/B_Configuration/MC_CreateCustReports_CustomReports.png" alt="" /></p></li><li value="2">Click <span class="bold">Delete </span> next to the custom report that you are deleting.</li><li value="3"> Select the custom report that is to be deleted, and then click <span class="bold">Delete</span>.&#160;A message opens, asking you if it is OK to delete the selected report.</li><li value="4">Click <span class="bold">Yes</span>.&#160;The message closes. The custom report is deleted, and another message opens indicating that the report was successfully deleted.</li></ol><h2><a name="Running,_printing,_and_exporting_a_custom_report"></a>Run, print, and export a custom report</h2><ol class="number-list"><li value="1">On the Admin menu, point to <span class="bold">Events &amp; Special Dates</span>, and then click <span class="bold">Custom Report</span>s.&#160;The Custom Reports page opens. This page always contains the Add Custom Reports option. It also displays a list of custom reports that have been previously defined in your Master Calendar database.<p><img src="../images/B_Configuration/MC_CreateCustReports_CustomReportsPg.png" alt="" /></p></li><li value="2">Click on the name/title of the custom report that you are running.&#160;An onscreen preview of the selected custom report opens in the Master Calendar application.<p><img src="../images/B_Configuration/MC_CreateCustReports_NameTitle.png" alt="" /></p></li><li value="3">Optionally, do one or more or all the following:<ul><li value="1">To group the report by a column header, drag the column to the indicated location at the top of the onscreen preview of the report.</li><li value="2">To change the sort order of the custom report results, click on a column header. Click on the column header again to reverse the sort order.</li><li value="3">To filter the custom report results, click on the Dropdown arrow next to a column header to open a list of all available values for the column, and select a specific value.<p><img src="../images/B_Configuration/MC_CreateCustReports_CustomReportFilter.png" alt="" /></p></li></ul><ul><li value="1">To export the custom report to a PDF file or a Microsoft Excel file (CSV or XLS), under Format, select the appropriate Export option, and then click <strong>Export</strong>.<p>A File dialog box opens, asking you if you want to open or save the file. If you click <span class="bold">Open</span>, then the file is opened in the appropriate application (Adobe Acrobat or Reader for a PDF or Microsoft Excel for a CSV or XLS file) and you can use the options that area available in these applications to name and/or save the file. If you click <span class="bold">Save</span>, then you are prompted to name the file (the default name is ReportGrid.pdf, ReportGrid.csv, or ReportGrid.xls) and you must select a location for saving the file. (The default location is your client’s Desktop.)</p><p><img src="../images/B_Configuration/MC_CreateCustReports_FileDownload.png" alt="" /></p></li></ul><ul><li value="1">To print the custom report, click <span class="bold">Print</span>.&#160;An onscreen preview of the selected custom report opens in its own window. A variety of options are available from this preview, including (from left to right at the top of the onscreen preview) the options to search the custom report results, print the custom report in its entirety, print the currently displayed custom report page and export the custom report to a file and save the file.&#160;PDF is the default format for exporting to a file. Other allowed formats are Xls, Xlsx, Rtf, Mnt, Text, Image, and Csv.<p><img src="../images/B_Configuration/MC_CreateCustReports_PDF.png" alt="" /></p></li></ul></li></ol></div>
+                                            <!-- <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Back Separator Print Forward;" />-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer center">
+                                <div class="container">
+                                    <div class="HomeMasterPageFooter outer-row">
+                                        <div><a href=""><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../../ContactUs.htm"> Contact </a>|<a href="mailto:success@emssoftware.com?subject=Documentation Feedback"> Feedback</a></a>
+                                            <p class="Copyright">© <span class="GeneralYear">2018</span> <span class="GeneralMy Company">EMS&#160;Software</span>, LLC. All Rights Reserved.</p>
+                                        </div>
+                                        <div class="footer-icons"><a href="" class="facebook"></a><a href="" class="twitter"></a><a href="" class="youtube"></a><a href="" class="linkedin"></a><a href="" class="googleplus"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script src="../../../Resources/Scripts/sidemenu.js">
+                            </script>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

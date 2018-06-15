@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="print" data-mc-toc-path="Installation Guides|Optional Features|Active Directory">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Install or Upgrade the EMS Email Notification Service</title>
+        <link rel="icon" href="../../Resources/Images/favicon.png" />
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="../../Home.htm" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="2" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="How Can We Help You?" />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="How Can We Help You?">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <div class="content">
+                                <div id="contentBody">
+                                    <div class="row collapse">
+                                        <div class="topichero">
+                                            <div class="title-text">
+                                                <form class="search" action="#">
+                                                    <div class="search-bar search-bar-container needs-pie _Skins_HomeSearchBar mc-component">
+                                                        <input class="search-field needs-pie" type="search" placeholder="What can we help you find?" />
+                                                        <div class="search-filter-wrapper">
+                                                            <div class="search-filter">
+                                                                <div class="search-filter-content">
+                                                                    <ul>
+                                                                        <li>All Files</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-submit-wrapper" dir="ltr">
+                                                            <div class="search-submit" title="How Can We Help You?">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="nocontent">
+                                                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                </div>
+                                            </div>
+                                            <div class="sideContent small-3 columns" id="smartmenu-accordion">
+                                                <ul class="menu _Skins_SideMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/Master.js" data-mc-side-menu="True" data-mc-max-depth="-1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="False" data-mc-include-parent="False" data-mc-toc="True">
+                                                </ul>
+                                                <!-- <MadCap:menuProxy style="mc-toc-depth: 2;mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: False;mc-include-children: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/SidemenuTOC.fltoc" />-->
+                                            </div>
+                                            <div class="small-9 columns right-content">
+                                                <h1>Install or Upgrade the EMS Email Notification Service</h1>
+                                                <p>EMS has built-in functionality that alerts users of certain changes in the database. With the optional EMS Email Notification Service users can also be notified via email. If email notification will not be used, there is no need to install the Email Notification Service. Standard notifications can still be generated and viewed by users who are logged into EMS.</p>
+                                                <p>The EMS Email Notification Service must be installed on a computer that is connected to the network and is running 24 hours a day.</p>
+                                                <div class="notifications">
+                                                    <p class="note-box important"><span class="bold">Important:</span>&#160;Existing versions of the EMS Email Notification Service must be manually uninstalled. Install the EMS Email Notification Service on&#160;<span class="bold">one computer/server only</span>.</p>
+                                                </div>
+                                                <ol class="number-list">
+                                                    <li value="1">Verify that the prerequisite software is installed.</li>
+                                                    <li value="2">Manually uninstall any existing versions of the EMS Email Notification Service.</li>
+                                                    <li value="3">Download the&#160;<span class="bold">EMSEmailNotificationSetup.msi</span>&#160;onto the server that will be running the service.</li>
+                                                    <li value="4">Double-click&#160;<span class="bold">EMSEmailNotificationSetup.msi</span>. Follow the on-screen prompts.&#160;It is recommended that you accept the defaults.</li>
+                                                    <li value="5">Within your Microsoft Windows Start menu, locate&#160;<span class="bold">EMS Email Notification</span>.&#160;The EMS Email Notification Configuration screen will appear.<p><img src="Images/OptFeatGuide/Installing or Upgrading the_422x502.png" alt="" style="width: 422;height: 502;" /></p></li>
+                                                    <li value="6">Review and complete/change the following settings:<ul class="unorder-list"><li value="1"><span class="bold">Mode&#160;</span>– Type of authentication to the SMTP server.</li><li value="2"><span class="bold">SMTP Server</span> –&#160;SMTP server name or IP address.</li><li value="3"><span class="bold">Use Gmail</span> –&#160;Check this option to set the service to use Gmail settings.</li><li value="4"><span class="bold">Port Number</span> –&#160;SMTP port (default = 25)</li><li value="5"><span class="bold">Use SSL</span> –&#160;Check this option if your SMTP server runs under SSL.</li><li value="6"><span class="bold">User Name/Password</span>&#160;– Required if an authentication mode other than Unauthenticated is selected.</li><li value="7"><span class="bold">Email Interval</span> –&#160;The frequency with which the system will generate notification emails.</li></ul></li>
+                                                    <li value="7">In the Databases section of the dialog box, you will see a sample database and server (named ‘server’ and ‘database.’) Select this entry, click&#160;<span class="bold">Edit</span> and change the values to your EMS server and database name.<p><img src="Images/OptFeatGuide/Installing or Upgrading the_1.png" alt="" /></p><p class="beforelist">On the Database tab of the Notification Database dialog box, complete the following:</p><ul class="unorder-list"><li value="1"><span class="bold">Server/Database</span>&#160;– EMS server and database name</li><li value="2"><span class="bold">EMS&#160;Authentication/Windows Authentication</span>&#160;– The method of authentication to this database.</li><li value="3"><span class="bold">Email From</span> –&#160;Email address that will be displayed in the From field of notification emails that are sent.</li><li value="4"><span class="bold">Enable Email Notification</span>&#160;– Activates email notifications.</li><li value="5"><span class="bold">Enable Group Notification</span>&#160;– Activates group notifications.</li><li value="6"><span class="bold">Enable Service Event Logging</span>&#160;– Activates Windows event logging.</li></ul><p class="beforelist">Click the Service Order Settings tab and review/change the following:</p><ul class="unorder-list"><li value="1"><span class="bold">Paper size</span>&#160;– The paper size for the PDF file that is emailed.</li><li value="2"><span class="bold">Highlight Days</span>&#160;– Number selected here determines the information that is highlighted on service order PDFs.</li><li value="3"><span class="bold">Show Pricing</span>&#160;– Check if service orders should display pricing.</li><li value="4"><span class="bold">Show Notes</span>&#160;– Check if service orders should display resource notes.</li><li value="5"><span class="bold">Show Special Instructions</span>&#160;– Check if service orders should display resource special instructions.</li></ul></li>
+                                                    <li value="8">After making your entries, click&#160;<span class="bold">OK</span>.</li>
+                                                    <li value="9">Click&#160;<span class="bold">OK&#160;</span>again to save your EMS Email Notification Configuration settings.The Email Notification Service is now enabled.<p>See&#160;<a href="../../EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigNotRules.htm">Configure&#160;Notification Rules</a> and <a href="../../EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroupNot.htm">Configure Group Notification Rules</a> for information on defining Notification Rules.</p></li>
+                                                </ol>
+                                            </div>
+                                            <!-- <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Back Separator Print Forward;" />-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer center">
+                                <div class="container">
+                                    <div class="HomeMasterPageFooter outer-row">
+                                        <div><a href=""><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../ContactUs.htm"> Contact </a>|<a href="mailto:success@emssoftware.com?subject=Documentation Feedback"> Feedback</a></a>
+                                            <p class="Copyright">© <span class="GeneralYear">2018</span> <span class="GeneralMy Company">EMS&#160;Software</span>, LLC. All Rights Reserved.</p>
+                                        </div>
+                                        <div class="footer-icons"><a href="" class="facebook"></a><a href="" class="twitter"></a><a href="" class="youtube"></a><a href="" class="linkedin"></a><a href="" class="googleplus"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script src="../../Resources/Scripts/sidemenu.js">
+                            </script>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

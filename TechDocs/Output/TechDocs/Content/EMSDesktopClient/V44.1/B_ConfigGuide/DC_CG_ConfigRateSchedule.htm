@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="print" data-mc-toc-path="Configuration Guides|EMS Desktop Client|Configuration &gt; Billing">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Configure Rate Schedules</title>
+        <link rel="icon" href="../../../Resources/Images/favicon.png" />
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/DTC_V44_CGBilling.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="../../../Home.htm" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="2" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="How Can We Help You?" />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="How Can We Help You?">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <div class="content">
+                                <div id="contentBody">
+                                    <div class="row collapse">
+                                        <div class="topichero">
+                                            <div class="title-text">
+                                                <form class="search" action="#">
+                                                    <div class="search-bar search-bar-container needs-pie _Skins_HomeSearchBar mc-component">
+                                                        <input class="search-field needs-pie" type="search" placeholder="What can we help you find?" />
+                                                        <div class="search-filter-wrapper">
+                                                            <div class="search-filter">
+                                                                <div class="search-filter-content">
+                                                                    <ul>
+                                                                        <li>All Files</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-submit-wrapper" dir="ltr">
+                                                            <div class="search-submit" title="How Can We Help You?">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="nocontent">
+                                                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                </div>
+                                            </div>
+                                            <div class="sideContent small-3 columns" id="smartmenu-accordion">
+                                                <!--	<MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: True;mc-include-parent: False;mc-include-siblings: False;mc-include-children: True;" class="menu" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/Master.fltoc" />-->
+                                                <ul class="nocontent menu _Skins_SideMenu mc-component" data-mc-linked-toc="Data/Tocs/Icon_DesktopClient.js" data-mc-side-menu="True" data-mc-max-depth="-1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="False" data-mc-include-siblings="False" data-mc-include-parent="False" data-mc-toc="True">
+                                                </ul>
+                                            </div>
+                                            <div class="small-9 columns right-content">
+                                                <h1 class="Heading1">Configure Rate Schedules</h1>
+                                                <p>When you&#160;configure&#160;a rate schedule, you can configure one “from scratch,” or you can copy an existing rate schedule and edit the name and any configured pricing as needed to make a new rate schedule. After you configure a rate schedule, you can&#160;define&#160;the pricing for the billable items (rooms and resources) in the rate schedule.</p>
+                                                <p>This topic will include information on the following:</p>
+                                                <ul>
+                                                    <li value="1"><a href="#ConfigureRate" class="MCXref xref">Configure a Rate Schedule:</a>
+                                                    </li>
+                                                    <li value="2"><a href="#ConfigurePricing" class="MCXref xref">Configure Pricing for Billable Items in a Rate Schedule&#160;</a>
+                                                    </li>
+                                                </ul>
+                                                <p class="note-box">Tip:&#160;You Can Assign Rate Schedules to Specific Rooms and Resources.</p>
+                                                <p>After you define your organization’s rate schedules, you have three options for manually assigning the prices to billable items (rooms and resources) based on these schedules:</p>
+                                                <ul>
+                                                    <li value="1">During the configuration of a room or resource. When you are configuring a room or resource, the configuration dialog box contains a Pricing tab. This tab lists all the rate schedules that are currently configured in your EMS database. You can specify the pricing method for the billable item that you are configuring for each rate schedule. You can also specify a discount percentage for the item, a minimum charge for the item, a maximum charge for the item, or any combination of these options.</li>
+                                                    <li value="2">After all necessary rooms and resources are configured. Both the Rooms window and the Resources window contain a Pricing button. You can click Pricing to open an Edit Pricing window. You can use the options on this window to specify the pricing method for the billable items (rooms and resources) for a selected rate schedule. You can also specify a discount percentage for the item, a minimum charge for the item, a maximum charge for the item, or any combination of these options. (See Configuring Rooms and Configuring Resources for a Category)</li>
+                                                    <li value="3">Where rate schedules are defined. The Rate Schedules window has a Pricing button. After you have defined a rate schedule, you can select a rate schedule in the Rate Schedules window and click Pricing to open an Edit Pricing window. You can use the options on this window to specify the pricing method for every billable item for the rate schedule. You can also specify a discount percentage for the item, a minimum charge for the item, a maximum charge for the item, or any combination of these options. (See Configuring Rate Schedules)</li>
+                                                </ul>
+                                                <h2><a name="ConfigureRate"></a>Configure a Rate Schedule:</h2>
+                                                <ol start="1">
+                                                    <li value="1">On the EMS menu bar, click Configuration &gt; Billing &gt;&#160;Rate Schedules.&#160;The Rate Schedules window opens. This window lists all the rate schedules that are currently configured in your EMS database.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../Resources/Images/DTC_V44_CGBilling/Configuring Rate Schedules.png" alt="emssg_CoreConfigurationBilling_image003.png" />
+                                                </p>
+                                                <ol start="2">
+                                                    <li value="2">Click&#160;New.&#160;The Rate Schedule dialog box opens.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../Resources/Images/DTC_V44_CGBilling/Configuring Rate Schedules_1.png" alt="emssg_CoreConfigurationBilling_image004.png" />
+                                                </p>
+                                                <ol start="3">
+                                                    <li value="3">In the Rate Schedule field, enter a name or description for the new rate schedule (maximum of 30 characters, including spaces).</li>
+                                                    <li value="4">Click&#160;OK.&#160;The Rate Schedule dialog box closes. You return to the Rate Schedules window with the newly configured rate schedule automatically selected.</li>
+                                                </ol>
+                                                <h2 class="Heading2"><a name="ConfigurePricing"></a>Configure Pricing for Billable Items in a Rate Schedule&#160;</h2>
+                                                <ol start="1">
+                                                    <li value="1">If you have not already done so, open the Rate Schedule window&#160;(click Configuration &gt; Billing &gt;&#160;Rate&#160;Schedules)&#160;and then select the rate schedule for which you are configuring the pricing for billable items.&#160;</li>
+                                                    <li value="2">Click&#160;Pricing.&#160;The Edit Pricing window opens.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../Resources/Images/DTC_V44_CGBilling/Configuring Rate Schedules_2.png" alt="emssg_CoreConfigurationBilling_image005.png" />
+                                                </p>
+                                                <p>3. Do one of the following:</p>
+                                                <ul>
+                                                    <li value="1">To configure the pricing for a resource category, on the Category dropdown list, select the category, and then click&#160;Display.</li>
+                                                    <li value="2">Optionally, on the Grouping dropdown list, select a resource grouping to filter the search results.</li>
+                                                    <li value="3">To configure the pricing for rooms, on the Category dropdown list, select&#160;Room Charge.</li>
+                                                </ul>
+                                                <p>All rooms in all buildings that are currently configured in your EMS database are displayed in the lower pane of the dialog box.</p>
+                                                <ul>
+                                                    <li value="1">On the Building dropdown list, select a specific building, area, or view to filter the search results.</li>
+                                                    <li value="2">On the Grouping dropdown list, select a room type to filter the search results.</li>
+                                                </ul>
+                                                <ol start="4">
+                                                    <li value="4">For each billable item (resource or room), select the pricing method, which determines the cost for reserving the item.</li>
+                                                </ol>
+                                                <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+                                                    <thead>
+                                                        <tr class="TableStyle-PatternedRows-Head-Header1">
+                                                            <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                                                                <p>Pricing Method</p>
+                                                            </th>
+                                                            <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                                                                <p>Description</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Half Day/Full Day (Event Time)</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>The total number of hours for the event is counted and then compared to the number of hours that is indicated in the Hours column. If the total number of hours for the event is less than or equal to the hours that are indicated in the Hours column, then the Half Day price is charged for the billable item. If the total number of hours for the event is greater than the hours that are indicated in the Hours column, then the Full Day price is charged for the billable item.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Half Day/Full Day (Reserved Time)</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>The total number of hours for the reservation (event time and reserved time) is counted and then compared to the number of hours that is indicated in the Hours column. If the total number of hours for the reservation is less than or equal to the hours that are indicated in the Hours column, then the Half Day price is charged for the billable item. If the total number of hours for the reservation is greater than the hours that are indicated in the Hours column, then the Full Day price is charged for the billable item.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Hourly (Event Time)</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>The price that is indicated in the Price column is multiplied by the event time (in hours) for the booking. This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Hourly (Reserved Time)</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>The price that is indicated in the Price column is multiplied by the reserved time (in hours) for the booking. This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Hourly (Service Time)</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>The price that is indicated in the Price column is multiplied by the reserved time (in hours) for the service. This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Hourly (Specific)</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>The price that is indicated in the Price column is multiplied by the number of hours indicated when adding a billable item to a booking.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                                                                <p>Unit</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                                                                <p>The price that is indicated in the Price column is applied to the billable item, regardless of the event time or reserved time for the booking.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <ol start="5">
+                                                    <li value="5">After you select a pricing method, click in the appropriate fields to select the currently displayed amount, and edit the amount as needed.</li>
+                                                </ol>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+                                                    <thead>
+                                                        <tr class="TableStyle-PatternedRows-Head-Header1">
+                                                            <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                                                                <p>Field</p>
+                                                            </th>
+                                                            <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                                                                <p>Description</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Price</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>The dollar amount that is used in calculating the room or resource price for a booking. If the pricing method is Unit, then this value is applied in total to the resource or room, regardless of the event time or reserved time for the booking.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Discount</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>You can use a discount with any pricing method. If you specify a discount for a room or resource, then the actual price, the discount percentage, and the discounted amount are all displayed on confirmations and invoices.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Min. Charge</p>
+                                                                <p>Max. Charge</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>The values that are indicated in these columns are used in conjunction with the Hourly pricing methods. If you specify a minimum charge for a room or resource, then the system compares this value to the calculated hourly rate and applies the greater of the two charges. Likewise, if you specify a maximum charge for a room or resource, then the system compares this value to the calculated hourly rate and applies the lesser of the two charges.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Flat Price</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>A resource or room price that remains constant regardless of the total number of hours booked for a room or resource. Used in conjunction with Hourly (Event Time) and Hourly (Reserved Time).</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Half Day Price</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>The dollar amount that is used in calculating room or resource price for a booking if the pricing unit is Half Day/Full Day (Event Time) or Half Day/Full Day (Reservation Time).</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Full Day Price</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>The dollar amount that is used in calculating the room or resource price for a booking if the pricing unit is Half Day/Full Day (Event Time) or Half Day/Full Day (Reservation Time).</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                                                                <p>Hours</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                                                                <p>Multiplier used in calculating the room or resource price for a booking if the pricing unit is Half Day/Full Day (Event Time) or Half Day/Full Day (Reservation Time).</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <ol start="6">
+                                                    <li value="6">Click&#160;Close.&#160;The Edit Pricing window closes. You return to the Rate Schedules window with the rate schedule automatically selected.</li>
+                                                </ol>
+                                            </div>
+                                            <!-- <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Back Separator Print Forward;" />-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer center">
+                                <div class="container">
+                                    <div class="HomeMasterPageFooter outer-row">
+                                        <div><a href=""><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../../ContactUs.htm"> Contact </a>|<a href="mailto:success@emssoftware.com?subject=Documentation Feedback"> Feedback</a></a>
+                                            <p class="Copyright">© <span class="GeneralYear">2018</span> <span class="GeneralMy Company">EMS&#160;Software</span>, LLC. All Rights Reserved.</p>
+                                        </div>
+                                        <div class="footer-icons"><a href="" class="facebook"></a><a href="" class="twitter"></a><a href="" class="youtube"></a><a href="" class="linkedin"></a><a href="" class="googleplus"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script src="../../../Resources/Scripts/sidemenu.js">
+                            </script>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

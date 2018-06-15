@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/OR_DC.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Configue Buildings Version 44 (EMS Desktop Client)</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="true" />
+    </head>
+    <body>
+        <h1>Configure Buildings</h1>
+        <p>
+            <MadCap:concept term="V44" />A <span class="italics">building</span> is a physical location that contains one or more spaces (rooms, open areas, and so on) that your users can reserve for an event. Buildings are one of the core data items that you must configure&#160;so that your users can make reservations in <MadCap:variable name="General.Product" />.</p>
+        <p>This topic will provide the following information:</p>
+        <ul class="unorder-list">
+            <li>
+                <MadCap:xref href="#ConfigureBuilding">Configure a Building</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#RestrictBuilding">Restrict a Building to Specific Categories</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#AssociateImage">Associate&#160;an Image With a Building</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#SetValues">Set Values&#160;for the User Defined Fields (UDFs)</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Specify">Specify Unregistered Attendee/Visitor Behavior</MadCap:xref>
+            </li>
+        </ul>
+        <h2><a name="ConfigureBuilding"></a>Configure a Building</h2>
+        <ol class="number-list">
+            <li>On the <MadCap:variable name="General.EMS&#160;Desktop Client" /> menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>&gt; <span class="bold">Buildings</span>.&#160;The Buildings window opens. This window lists all the buildings that are currently configured in your <MadCap:variable name="General.Product" /> database.</li>
+        </ol>
+        <p>
+            <img border="0" src="../../V44.1/ConfigurationGuide/Images/DC_CG_ConfigBuild1.png" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Click <span class="bold">New</span>.&#160;The Building configuration dialog opens on the Building tab.</li>
+        </ol>
+        <p>
+            <img border="0" src="../../V44.1/ConfigurationGuide/Images/DC_CG_ConfigBuild2.png" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Enter the information as appropriate for the building using the subtopics in this topic.</li>
+        </ol>
+        <p class="box-tip"><span class="boldAllCaps">Tip:</span>By default, when you configure a building, the building hours are set to <span class="bold">Open All Day</span>. To change these hours, see <MadCap:xref href="../../V44.1/ConfigurationGuide/ConfigBuildingHours.html">Configuring Building Hours</MadCap:xref>. Only the building name, the building code, and the time zone are required fields. All other fields on all other tabs are optional and can be configured at a later date if needed.</p>
+        <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');">
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p scope="col">Field</p>
+                    </th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p scope="col">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Building</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Required field. The name of the building (maximum&#160;50 characters, including spaces).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Building Code</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Required field. Abbreviated text that conveys the building name or description (maximum 20 characters, including spaces). For example, if a building is named the Conference Building, then a code for the building could be CONF.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Notes</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Free-form text that provides any additional information or description about the building.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>URL</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>The web address of a web page that provides more information about the building (for example, Google Maps).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Print Notes on Confirmation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Include the building notes in any confirmations that are printed for events that are scheduled in the building.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Time Zone</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Required field. Select the time zone in which the building resides.</p>
+                        <p><strong>Note</strong>: If you are configuring buildings in EMS&#160;Enterprise, you can select a unique time zone for each building. If you are configuring buildings in <MadCap:variable name="General.Product" />, all buildings must belong to the same time zone.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Currency</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Select the currency to be used for pricing all rooms in the building. See <MadCap:xref href="../../V44.1/ConfigurationGuide/ConfigCurrencies.htm">Configure Currencies</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>External Reference</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Links the building to an outside program, if needed.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Cost Per Sq. Ft./Meter Per Yr.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Building cost. Used on the Room Utilization report.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Annual Operating Hours</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>Total number of hours that the building is open during a calendar year. Used on the Room Utilization report.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Continue with any other configuration for the building as needed in this topic; otherwise, click <strong>OK </strong>to close the Building dialog box and return to the Buildings window. The newly configured building is displayed in the window.</li>
+        </ol>
+        <h2><a name="RestrictBuilding"></a>Restrict a Building to Specific Categories</h2>
+        <p>You can restrict specific categories to specific buildings only in EMS&#160;Enterprise. All categories are available to all buildings in EMS&#160;Professional.</p>
+        <ol class="number-list">
+            <li>From the Building Configuration page, click&#160;the Categories tab.</li>
+        </ol>
+        <p>
+            <img border="0" src="../../V44.1/ConfigurationGuide/Images/DC_CG_ConfigBuild3.png" />
+        </p>
+        <p class="box-tip"><span class="boldAllCaps">Tip:</span>The Available to All Buildings list in the lower right pane displays all the categories that are always available to all buildings and you cannot edit this list. You can also link buildings and categories when you are configuring categories. See <MadCap:xref href="../../V44.1/ConfigurationGuide/ConfigCategory.html">Configure Categories</MadCap:xref>.</p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Select the categories you want&#160;to be available for use in the building, and then use the arrow buttons to move the them to the Selected list.</li>
+            <li>Continue with any other configuration for the building as needed; otherwise, click <strong>OK </strong>to close the Building dialog box and return to the Buildings window. The newly configured building is displayed in the window.</li>
+        </ol>
+        <h2><a name="AssociateImage"></a>Associate&#160;an Image With a Building</h2>
+        <p>Images are displayed as thumbnails in both <MadCap:variable name="General.EMS&#160;Desktop Client" /> and <MadCap:variable name="General.EMS&#160;Web App" /> when a user views details about a building. You can associate an image with a building if the image is in one of the following formats: .gif, .jpeg, .jpg, .bmp, .wmf, or .png and ideally, it should not be larger than 615 x 350 pixels. If you attach an image larger than this, you might not be able to view the image without scrolling.</p>
+        <ol class="number-list">
+            <li>From the Building Configuration dialog, click&#160;the <span class="bold">Images </span>tab.</li>
+        </ol>
+        <p>
+            <img border="0" src="../../V44.1/ConfigurationGuide/Images/DC_CG_ConfigBuild4.png" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>To have an image of the building display&#160;in EMS and the EMS&#160;Web App when a user is viewing building details, click <strong>New </strong>to open the Find Image dialog box, and then browse to and select the image.&#160;The Find Image dialog box closes. You remain on the Images tab with an entry for the image displayed on the tab.</li>
+            <li>You can add enter a longer description of the building&#160;in the <strong>Web Long Description</strong> field. The value that you enter here defines the “long desc” attribute for web content accessibility.</li>
+            <li>Continue with any other configuration for the building as needed; otherwise, click <strong>OK </strong>to close the Building dialog box and return to the Buildings window.&#160;</li>
+        </ol>
+        <h2><a name="SetValues"></a>Set Values&#160;for the User Defined Fields (UDFs)</h2>
+        <ol class="number-list">
+            <li>From the Building configuration dialog, click&#160;the UDFs tab.</li>
+        </ol>
+        <p>
+            <img border="0" src="../../V44.1/ConfigurationGuide/Images/DC_CG_ConfigBuild5.png" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>For each UDF that has been defined for the building, select the UDF, and then click the <strong>Set Value</strong> button to open a dialog box in which you can set the value for the UDF.</li>
+            <li>Continue with any other configuration for the building as needed; otherwise, click <strong>OK </strong>to close the Building dialog box and return to the Buildings window.</li>
+        </ol>
+        <h2><a name="Specify"></a>Specify Unregistered Attendee/Visitor Behavior</h2>
+        <p>The Visitor Management tab is displayed only if your organization has purchased and installed the optional Visitor Management module, which enables front-desk users such as reception to check in visitors, print badges, access lists of visitors, and run reports. The values that you specify on this tab are used when a new visitor checks into your building.&#160;<br /><strong>See Also:&#160;</strong><MadCap:xref href="../../V44.1/ConfigurationGuide/EnableVisitorMgmt.htm">Enable Visitor Management</MadCap:xref>.</p>
+        <ol class="number-list">
+            <li>From the Building configuration dialog, click the <span class="bold">Visitor Management</span> tab.</li>
+        </ol>
+        <p>
+            <img border="0" src="../../V44.1/ConfigurationGuide/Images/DC_CG_ConfigBuild6.png" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Enter the information for the new unregistered visitor/attendee.</li>
+        </ol>
+        <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');">
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p scope="col">Option</p>
+                    </th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p scope="col">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Category</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Select an Attendee type category. See <MadCap:xref href="../../V44.1/ConfigurationGuide/ConfigCategory.html">Configure Categories</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Room</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>The Override room that is booked for the unregistered visitor’s/attendee’s reservation.</p>
+                        <p><strong>Note</strong>: Typically, you would want to book an Override room named something such as Other Space, Unregistered Space, or so on. See <MadCap:xref href="../../V44.1/ConfigurationGuide/ConfigRooms.html">Configuring Rooms</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Status</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The status that is used for an unregistered visitor’s/attendee’s reservation. See <MadCap:xref href="../../V44.1/ConfigurationGuide/ConfigStatuses.htm">Configure Statuses</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Event Type</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>The event type that is used for the unregistered visitor’s/attendee’s reservation.</p>
+                        <p><strong>Note</strong>: Typically, you would want to use an event type named something such as Unregistered Visitor, Unregistered Attendee or so on.&#160;See <MadCap:xref href="../../V44.1/ConfigurationGuide/ConfigEventType.html">Configure Event Types</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Event Name</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The event name that is used for the unregistered visitor’s/attendee’s reservation.</p>
+                        <p><strong>Note</strong>: You can include the variable for Group Name (the name of the group that the visitor/attendee is seeing) in the subject line as described in the Legend. For example, “Unregistered Visitor for%1%” would result in “Unregistered Visitor for Academic Affairs” being displayed in the subject line.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>End Time</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>The booking for the unregistered visitor/attendee is created from the current time until the end time that you specify.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Continue with any other configuration for the building as needed; otherwise, click <strong>OK </strong>to close the Building configuration dialog and return to the list of Buildings.</li>
+        </ol>
+    </body>
+</html>

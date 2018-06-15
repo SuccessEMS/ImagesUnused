@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="print" data-mc-toc-path="Configuration Guides|EMS Desktop Client|Configuration &gt; Administration">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Configure Notification Rules</title>
+        <link rel="icon" href="../../../Resources/Images/favicon.png" />
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/DTC_V44_CGBookElements1.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="../../../Home.htm" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="2" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="How Can We Help You?" />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="How Can We Help You?">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <div class="content">
+                                <div id="contentBody">
+                                    <div class="row collapse">
+                                        <div class="topichero">
+                                            <div class="title-text">
+                                                <form class="search" action="#">
+                                                    <div class="search-bar search-bar-container needs-pie _Skins_HomeSearchBar mc-component">
+                                                        <input class="search-field needs-pie" type="search" placeholder="What can we help you find?" />
+                                                        <div class="search-filter-wrapper">
+                                                            <div class="search-filter">
+                                                                <div class="search-filter-content">
+                                                                    <ul>
+                                                                        <li>All Files</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-submit-wrapper" dir="ltr">
+                                                            <div class="search-submit" title="How Can We Help You?">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="nocontent">
+                                                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                </div>
+                                            </div>
+                                            <div class="sideContent small-3 columns" id="smartmenu-accordion">
+                                                <!--	<MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: True;mc-include-parent: False;mc-include-siblings: False;mc-include-children: True;" class="menu" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/Master.fltoc" />-->
+                                                <ul class="nocontent menu _Skins_SideMenu mc-component" data-mc-linked-toc="Data/Tocs/Icon_DesktopClient.js" data-mc-side-menu="True" data-mc-max-depth="-1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="False" data-mc-include-siblings="False" data-mc-include-parent="False" data-mc-toc="True">
+                                                </ul>
+                                            </div>
+                                            <div class="small-9 columns right-content">
+                                                <h1>Configure Notification Rules</h1>
+                                                <p>Notification Rules determine which EMS users are emailed about&#160;additions or changes&#160;are made in EMS. You can set these rules to trigger for new or changed&#160;bookings or service orders, changes to VIP events, new Everyday User accounts, or when specific&#160;UDF options are selected. Triggers are based on rooms, statuses, event types, group types, setup types,&#160;and/or categories.</p>
+                                                <p>For a Notification to be generated, all the criteria in the rule&#160;must be met. Typically, notifications are an internal function for reservation schedulers and service providers, but when you are configuring a Notification Rule, you can specify the email address for whomever you wish to receive an Email Notification.</p>
+                                                <p>This topic contains information on the following:</p>
+                                                <ul>
+                                                    <li value="1"><a href="#ConfigureNotRule" class="MCXref xref">To Configure a Notification Rule</a>
+                                                    </li>
+                                                    <li value="2"><a href="#BookingNotRules" class="MCXref xref">Booking Notification Rules</a>
+                                                    </li>
+                                                    <li value="3"><a href="#ServiceOrderNotificationRules" class="MCXref xref">Service Order&#160;Notification Rules</a>
+                                                    </li>
+                                                    <li value="4"><a href="#NotficationRulesforAnything" class="MCXref xref">Notification Rules for&#160;Anything On A VIP Event</a>
+                                                    </li>
+                                                    <li value="5"><a href="#NewWebUsers" class="MCXref xref">New Everyday Users&#160;Notification Rules</a>
+                                                    </li>
+                                                    <li value="6"><a href="#UDFRules" class="MCXref xref">User Defined Field&#160;Notification Rules</a>
+                                                    </li>
+                                                    <li value="7"><a href="#SelectUsersNotify" class="MCXref xref">Select Users to Notify&#160;</a>
+                                                    </li>
+                                                    <li value="8"><a href="#SelectingRoomsReqNot" class="MCXref xref">Selecting Rooms Requiring Notifications&#160;</a>
+                                                    </li>
+                                                    <li value="9"><a href="#SelectBookingStatus" class="MCXref xref">Select Booking Statuses Requiring Notifications&#160;</a>
+                                                    </li>
+                                                    <li value="10"><a href="#SelectEvent" class="MCXref xref">Select Event Types Requiring Notifications&#160;</a>
+                                                    </li>
+                                                    <li value="11"><a href="#CopyNotRule" class="MCXref xref">Copy a Notification Rule&#160;</a>
+                                                    </li>
+                                                </ul>
+                                                <p class="note-box">Note:&#160;The EMS Email Notification Service must be installed and configured for Email Notifications to be sent.&#160;See the&#160;Email Notification Service Install Instructions&#160;for details.</p>
+                                                <p>The timing of notification emails also depends&#160;on settings in&#160;the following three EMS system parameters (See&#160;<a href="DC_CG_EditSysParam.htm">System Parameters</a>):</p>
+                                                <ul>
+                                                    <li value="1">Exclude Building Closures on Notifications</li>
+                                                    <li value="2">Exclude Weekends on Notifications</li>
+                                                    <li value="3">Ignore Building Closure/Weekend Notification Settings Beyond xx Days</li>
+                                                </ul>
+                                                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Concept: Why Set Notification Rules?</a></span>
+                                                    <div class="MCDropDownBody dropDownBody">
+                                                        <p>EMS enables you to set detailed rules that trigger when notifications are sent to people and groups. This highly customizable feature guides you through a series of screens where you fine-tune your notification rules so that notices are more meaningful and timely, and so that notices automatically go to the right people at the right time. You can set your rules to trigger notifications for specific people, rooms, event statuses, and event types. Take extra time with this step and revisit your rules regularly to make sure they are continuing to serve your needs.</p>
+                                                    </div>
+                                                </div>
+                                                <h2><a name="ConfigureNotRule"></a>To Configure a Notification Rule</h2>
+                                                <ol start="1">
+                                                    <li value="1">On the EMS menu bar, click Configuration &gt; Administration &gt;&#160;Notification Rules.&#160;The Rules window opens, listing all active Notification Rules configured in your implementation.&#160;To view any de-activated Rules, select&#160;Inactive&#160;in the&#160;Show&#160;section.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../Resources/Images/DTC_V44_CGBookElements/Configuring Notification Rules.gif" alt="https://success.emssoftware.com/@api/deki/files/1379/RulesScreen.gif?revision=1" />
+                                                </p>
+                                                <ol start="2">
+                                                    <li value="2">Click&#160;New.&#160;The Notification Rule Wizard opens.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../Resources/Images/DTC_V44_CGBookElements/Configuring Notification Rules_2.png" alt="https://success.emssoftware.com/@api/deki/files/4205/clipboard_e5c94863311ba9891f256c82ce106c750?revision=1&amp;size=bestfit&amp;width=947&amp;height=625" />
+                                                </p>
+                                                <ol start="3">
+                                                    <li value="3">In the&#160;Description&#160;field, enter a name or description for the new Notification.</li>
+                                                    <li value="4">Leave the&#160;Inactive&#160;box unchecked to add the Notification Rule as an active Rule.&#160;</li>
+                                                    <li value="5">Select the&#160;Notification&#160;Type; these&#160;are defined&#160;below and your selection in this field changes additional fields that become available.</li>
+                                                </ol>
+                                                <h2><a name="BookingNotRules"></a>Booking Notification Rules</h2>
+                                                <p>Any of the following notification types are considered booking notifications, and are available when creating new Notification Rules in the wizard:</p>
+                                                <ul>
+                                                    <li value="1">New Bookings</li>
+                                                    <li value="2">Changes to Date/Time</li>
+                                                    <li value="3">Room Changes&#160;</li>
+                                                    <li value="4">Status Changes&#160;</li>
+                                                </ul>
+                                                <p>​<img src="Images/DC_CG_ConfigNot1_730x475.png" alt="https://success.emssoftware.com/@api/deki/files/3963/NotificationBookings2.jpg?revision=1" style="width: 730;height: 475;" /></p>
+                                                <ol start="1">
+                                                    <li value="1">The&#160;Setup Type&#160;field in the Notification Rule Wizard enables you to ensure&#160;that changes to a booking's&#160;room setup will appropriately notify attendees.&#160;(See&#160;this section&#160;for configuring Setup Types).&#160;You can select one of the existing setup types, or one of the options below.</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">(all)&#160;- The rule will trigger on all Setup Types.</li>
+                                                    <li value="2">(any other than Room default) -&#160;Notifications will trigger for all Setup Types except for the Room's default Setup Type. (To change the default Setup Type you can go to Configuration &gt; Facilities &gt; Rooms, then select a Room and press "Edit"; then make your changes in&#160;the "Default Setup Type" field.)&#160;</li>
+                                                </ul>
+                                                <ol start="2">
+                                                    <li value="2">Next to the&#160;Notification triggers if change occurs within...&#160;field, you can specify the timeframe (in days or hours) leading up to the booking when notifications generate. Enter a number and select "Days" or "Hours" from the dropdown.</li>
+                                                    <li value="3">The&#160;Display New Booking As&#160;field enables you to specify&#160;whether the Notification occurs as&#160;Booking Information&#160;or&#160;Reservation Information. For example, for new reservations that contain multiple bookings (recurring meetings), if Booking Information is selected, then a Notification occurs for every individual booking. If Reservation Information is selected, then a single Notification occurs for the entire reservation.</li>
+                                                    <li value="4">For&#160;Source, indicate whether additions and/or changes in the&#160;EMS Desktop Client, <span class="GeneralEMS&#160;Web App">EMS&#160;Web App</span>, or both will trigger a Notification.</li>
+                                                </ol>
+                                                <p class="note-box">Note:&#160;The Booking&#160;options described&#160;here&#160;only apply to&#160;EMS Enterprise. In EMS Professional, only one global Booking Notification can be configured at any time in your EMS database and it is only available if a Booking Notification is not currently configured in your EMS database.</p>
+                                                <h2><a name="ServiceOrderNotificationRules"></a>Service Order&#160;Notification Rules</h2>
+                                                <p>Any of the following notification types are considered service order notifications:</p>
+                                                <ul>
+                                                    <li value="1">New Service Orders</li>
+                                                    <li value="2">Changes to Service Orders</li>
+                                                    <li value="3">Deleted/Canceled&#160;Service Orders</li>
+                                                </ul>
+                                                <ol start="1">
+                                                    <li value="1">On the&#160;Category&#160;dropdown list, select the category for which the service order Notification is to be generated.&#160;If the appropriate category is not available, you can configure it. See&#160;<a href="DC_CG_ConfigCategory.html" class="MCXref xref">Configure Categories</a>.&#160;<br />After selecting a category, the&#160;State,&#160;Grouping, and&#160;Resource&#160;options&#160;appear.&#160;You can select (all), (multiple), (none), or an individual item on the list.&#160;To notify on a whole category, keep the selections set to (all).</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">State—Select the corresponding state that you the Notification to trigger on.&#160; "New Service Orders" will have to start in that state.&#160; "Changes To Service Orders" will have to change into that state.&#160; More than one state may be selected.</li>
+                                                    <li value="2">Grouping—Select the grouping that a resource is in.&#160;These are set at the resource level in EMS.&#160;See<a href="DesktopClient_ConfigGroupingsResource.html" class="MCXref xref">Configuring Groupings for a Resource</a>.</li>
+                                                    <li value="3">Resource—Select an individual resource from the list.</li>
+                                                </ul>
+                                                <p class="note-box">Note:&#160;When you choose&#160;a Group or Category, all three items (New Service Orders, Changes To Service Orders, and Deletion/Cancelation Of Service Orders) will become auto-selected.&#160;The notification will now only fire on all three.&#160;To set the rule to trigger notifications on only one or two of these three, you must select (all) on both Group and Category.</p>
+                                                <ol start="2">
+                                                    <li value="2">Next to the&#160;Notification triggers if change occurs within...&#160;field, you can specify the timeframe (in days or hours) leading up to the booking when notifications generate. Enter a number and select "Days" or "Hours" from the dropdown.</li>
+                                                    <li value="3">For&#160;Source, indicate whether additions and/or changes in the&#160;EMS Desktop Client, <span class="GeneralEMS&#160;Web App">EMS&#160;Web App</span>, or both will trigger a Notification.</li>
+                                                </ol>
+                                                <h2><a name="NotficationRulesforAnything"></a>Notification Rules for&#160;Anything On A VIP Event</h2>
+                                                <p>VIP Event is an option available when creating a reservation in the Reservation Wizard.&#160;Select this option to notify users&#160;when any changes are made to a VIP Event.&#160;</p>
+                                                <h2><a name="NewWebUsers"></a>New Everyday Users&#160;Notification Rules</h2>
+                                                <p>Select this option to notify users&#160;when a new Everyday User account is created. For&#160;Source, indicate whether additions and/or changes from the EMS Desktop Client, <span class="GeneralEMS&#160;Web App">EMS&#160;Web App</span>, or both should trigger a Notification.</p>
+                                                <h2><a name="UDFRules"></a>User Defined Field&#160;Notification Rules</h2>
+                                                <ol start="1">
+                                                    <li value="1">In&#160;Type&#160;field, select the&#160;User Defined Field&#160;type for which the Notification is to be generated.&#160;If the appropriate UDF is not available, you can configure it. See&#160;Configuring User Defined Fields (UDFs).</li>
+                                                    <li value="2">Select the UDF for which the Notification is to be generated. (Available UDFs have a field type of&#160;List. UDFs with other field types are not displayed on the User Defined Field dropdown list.)</li>
+                                                    <li value="3">Select the UDF value for which the Notification is to be generated.</li>
+                                                    <li value="4">Next to the&#160;Notification triggers if change occurs within...&#160;field, you can specify the timeframe (in days or hours) leading up to the booking when notifications generate. Enter a number and select "Days" or "Hours" from the dropdown.</li>
+                                                    <li value="5">For&#160;Source, indicate whether additions and/or changes in the&#160;EMS Desktop Client, <span class="GeneralEMS&#160;Web App">EMS&#160;Web App</span>, or both will trigger a Notification.</li>
+                                                </ol>
+                                                <p class="note-box">Note:&#160;The Service Order options described&#160;here only apply to&#160;EMS Enterprise. In EMS Professional, only one service order Notification per category can be configured at any time in your EMS database.</p>
+                                                <h2 class="Heading2"><a name="SelectUsersNotify"></a>Select Users to Notify&#160;</h2>
+                                                <ol start="6">
+                                                    <li value="6">Click&#160;Next.&#160;The Users window opens.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="Images/DC_CG_ConfigNot2.png" alt="https://success.emssoftware.com/@api/deki/files/4206/clipboard_e2efff6b89bea461320394707aabedb26?revision=1&amp;size=bestfit&amp;width=946&amp;height=622" />
+                                                </p>
+                                                <ol start="7">
+                                                    <li value="7">Select&#160;users and email addresses to which to&#160;send notifications:</li>
+                                                </ol>
+                                                <ol start="1" data-mc-continue="true">
+                                                    <li value="8">On the&#160;Available&#160;list, select the EMS user, or CTRL-click to select the multiple users who are to receive the email Notification, and then click the move button (&gt;) to move the selected users to the Selected list.&#160;If the appropriate user is not available, you can configure it. See&#160;Configuring User Accounts.</li>
+                                                    <li value="9">In the&#160;Email Address&#160;field, for each user and/or group that is to receive the email Notification, enter the appropriate email address, and then click Add.<br />OR<br />Leave the Email Address field blank, and then click&#160;Add&#160;to open the Select Names dialog box in which you can search for and add the necessary email addresses from your Groups/Contacts lists, your Global Address List, or your Outlook address book.</li>
+                                                    <li value="10">The following additional options are available on this screen:</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1"><span class="bold">Group Users Tied To Rule</span>—This controls if and how users assigned to the notification rule are notified.  If enabled, all users on the rule (applies only to Expert Users and not Everyday Users, nor email recipients) will function as a work group.  This means that if any user assigned to the rule performs an action that would normally trigger the rule, then the rule will not be triggered and no dashboard or email notifications will be sent.  If, however, this option is not selected and that user triggers it, the notifications will go to all the other users and email recipients designated on the Rule configuration.</li>
+                                                    <li value="2"><span class="bold">Send to Event Coordinator</span>—Send notifications to&#160;the Reservation Event Coordinator's&#160;email address or dashboard when checked.</li>
+                                                    <li value="3"><span class="bold">Send To Everyday User</span>—Send notifications to the Everyday User's email address when checked.</li>
+                                                    <li value="4"><span class="bold">Send to Reservation Group/Contacts</span>—Send notifications to the first contact's email address, or the group's email address.</li>
+                                                </ul>
+                                                <h2 class="Heading2"><a name="SelectingRoomsReqNot"></a>Selecting Rooms Requiring Notifications&#160;</h2>
+                                                <ol start="1">
+                                                    <li value="1">If you have not selected New Everyday Users, click&#160;Next.&#160;The Rooms window opens.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="Images/DC_CG_ConfigNot3.png" alt="https://success.emssoftware.com/@api/deki/files/1390/NotificationPage3.gif?revision=1&amp;size=bestfit&amp;width=949&amp;height=625" />
+                                                </p>
+                                                <ol start="9" data-mc-continue="true">
+                                                    <li value="2">Search for the rooms to which the Notification applies:</li>
+                                                </ol>
+                                                <ul start="1">
+                                                    <li value="1">For&#160;Building, select one of the following—(all) buildings, a specific building, a specific area, or a specific view.</li>
+                                                    <li value="2">For&#160;Room Type, leave the default value of (all), or select a specific room type.</li>
+                                                </ul>
+                                                <p class="note-box">Tip:&#160;To search for active and inactive rooms, select&#160;Show Inactive.</p>
+                                                <p>If the appropriate building, area, room type, or view is not available, you can configure it. See&#160;<a href="DC_CG_ConfigBuilding.html">Configuring Buildings</a>,&#160;<a href="DC_CG_ConfigAreas.html">Configure Areas</a>,&#160;<a href="DesktopClient_ConfigRoomType.html">Configure Room Types</a>,&#160;and/or&#160;<a href="DesktopClient_ConfigPublicViews.html">Configure Public Views</a>.</p>
+                                                <ol start="10" data-mc-continue="true">
+                                                    <li value="3">On the&#160;Available&#160;list, select a room, or CTRL-click to select multiple rooms, and then click the Move button (&gt;) to move the selected rooms to the Selected list.</li>
+                                                    <li value="4">Click&#160;Next.&#160;The Statuses window opens.</li>
+                                                </ol>
+                                                <h2 class="Heading2"><a name="SelectBookingStatus"></a>Select Booking Statuses Requiring Notifications&#160;</h2>
+                                                <ol start="1">
+                                                    <li value="1">
+                                                        <p>Click Next. The Statuses window opens, where you can specify the status of an event that should trigger a notification.</p>
+                                                    </li>
+                                                    <li value="2">
+                                                        <p>Move (&gt;) booking statuses (use CTRL-click to select multiple statuses) that should trigger a notification from the Available list to the Selected list. If the appropriate status is not listed, you can configure it. See&#160;<a href="DC_CG_ConfigStatuses.htm">Configure Statuses</a>.</p>
+                                                    </li>
+                                                </ol>
+                                                <p>
+                                                    <img src="Images/DC_CG_ConfigNot4.png" alt="https://success.emssoftware.com/@api/deki/files/1391/NotificationPage4.gif?revision=1&amp;size=bestfit&amp;width=949&amp;height=625" />
+                                                </p>
+                                                <h2><a name="SelectEvent"></a>Select Event Types Requiring Notifications&#160;</h2>
+                                                <ol start="1">
+                                                    <li value="1">Click&#160;Next.&#160;The Event Types window opens, where you can specify the type of event that should trigger a notification.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="Images/DC_CG_ConfigNot5.png" alt="https://success.emssoftware.com/@api/deki/files/1392/NotificationPage5.gif?revision=1&amp;size=bestfit&amp;width=949&amp;height=625" />
+                                                </p>
+                                                <ol start="14" data-mc-continue="true">
+                                                    <li value="2">Move (&gt;) event types (use CTRL-click to select multiple statuses) that should trigger a notification from the Available list to the Selected list. If the appropriate event type is not listed, you can configure it. See&#160;<a href="DesktopClient_ConfigEventType.html" title="Configuring Event Types" alt="Configuring Event Types">Configuring Event Types</a>.</li>
+                                                </ol>
+                                                <ol start="15" data-mc-continue="true">
+                                                    <li value="3">Click Finish.&#160;The Notification Rule Wizard closes. You return to the Rules window with the newly configured Notification Rule automatically selected.</li>
+                                                </ol>
+                                                <h2><a name="CopyNotRule"></a>Copy a Notification Rule&#160;</h2>
+                                                <p>Notification Rules can be configured by making a copy of an existing Rule.&#160;</p>
+                                                <ol>
+                                                    <li value="1">On the Notification Rules screen click the&#160;Copy&#160;button.&#160;The Rule will be completely the same as the previous one, except for the Description having "Copy of " added to the beginning of the name.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../Resources/Images/DTC_V44_CGBookElements/Configuring Notification Rules.gif" alt="https://success.emssoftware.com/@api/deki/files/1379/RulesScreen.gif?revision=1&amp;size=bestfit&amp;width=382&amp;height=384" />
+                                                </p>
+                                            </div>
+                                            <!-- <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Back Separator Print Forward;" />-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer center">
+                                <div class="container">
+                                    <div class="HomeMasterPageFooter outer-row">
+                                        <div><a href=""><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../../ContactUs.htm"> Contact </a>|<a href="mailto:success@emssoftware.com?subject=Documentation Feedback"> Feedback</a></a>
+                                            <p class="Copyright">© <span class="GeneralYear">2018</span> <span class="GeneralMy Company">EMS&#160;Software</span>, LLC. All Rights Reserved.</p>
+                                        </div>
+                                        <div class="footer-icons"><a href="" class="facebook"></a><a href="" class="twitter"></a><a href="" class="youtube"></a><a href="" class="linkedin"></a><a href="" class="googleplus"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script src="../../../Resources/Scripts/sidemenu.js">
+                            </script>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Release Notes_U26_Desktop Client"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="Release Notes_U26_AcademicPlanning"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSDesktopClient_AcademicPlanning.htm" />
+  <TocEntry
+    Title="Release Notes_U26_Outlook"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+</CatapultToc>

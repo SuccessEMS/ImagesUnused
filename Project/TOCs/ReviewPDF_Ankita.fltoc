@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Release Notes_U26_RoomSignApp"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSRoomSignApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="ReleaseNotes_U26_PlatformServices"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSPlatformServices.htm" />
+</CatapultToc>

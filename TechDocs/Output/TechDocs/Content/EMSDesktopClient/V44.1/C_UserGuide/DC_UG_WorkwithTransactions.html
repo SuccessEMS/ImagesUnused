@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="desktopClient _Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-has-content-body="True" data-mc-community-features="disabled" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="print" data-mc-toc-path="Older Releases|Version 44|EMS Desktop Client User Guide (V44)|Billing">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="true" /><title>Working With Transactions</title>
+        <link rel="icon" href="../../../Resources/Images/favicon.png" />
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="../../../Home.htm" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="2" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="How Can We Help You?" />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="How Can We Help You?">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <div class="content">
+                                <div id="contentBody">
+                                    <div class="row collapse">
+                                        <div class="topichero">
+                                            <div class="title-text">
+                                                <form class="search" action="#">
+                                                    <div class="search-bar search-bar-container needs-pie _Skins_HomeSearchBar mc-component">
+                                                        <input class="search-field needs-pie" type="search" placeholder="What can we help you find?" />
+                                                        <div class="search-filter-wrapper">
+                                                            <div class="search-filter">
+                                                                <div class="search-filter-content">
+                                                                    <ul>
+                                                                        <li>All Files</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-submit-wrapper" dir="ltr">
+                                                            <div class="search-submit" title="How Can We Help You?">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="nocontent">
+                                                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                </div>
+                                            </div>
+                                            <div class="sideContent small-3 columns" id="smartmenu-accordion">
+                                                <!--	<MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: True;mc-include-parent: False;mc-include-siblings: False;mc-include-children: True;" class="menu" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/Master.fltoc" />-->
+                                                <ul class="nocontent menu _Skins_SideMenu mc-component" data-mc-linked-toc="Data/Tocs/Icon_DesktopClient.js" data-mc-side-menu="True" data-mc-max-depth="-1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="False" data-mc-include-siblings="False" data-mc-include-parent="False" data-mc-toc="True">
+                                                </ul>
+                                            </div>
+                                            <div class="small-9 columns right-content">
+                                                <h1>Work with Transaction</h1>
+                                                <p>Working with transactions includes entering and voiding:</p>
+                                                <ul>
+                                                    <li value="1">Adjustments.</li>
+                                                    <li value="2">Deposits (Damage, Booking, Reservation).</li>
+                                                    <li value="3">Payments</li>
+                                                    <li value="4">Pre-Payments.</li>
+                                                    <li value="5">Refunds.</li>
+                                                </ul>
+                                                <p>Each&#160;<a href="DC_UG_TypesofTransactions.html" title="https://success.emssoftware.com/EMS_V44.1/Using_EMS/Using_EMS_Desktop_Client/030_Billing/030_Searching_for_Transactions/Types_of_Transactions" alt="https://success.emssoftware.com/EMS_V44.1/Using_EMS/Using_EMS_Desktop_Client/030_Billing/030_Searching_for_Transactions/Types_of_Transactions">type of transaction</a>&#160;involves unique steps for entering them, but the task of voiding all these types of transactions are the same.</p>
+                                                <p class="note-box">Tip:&#160;You may need to&#160;<a href="DC_UG_SearchforTransactions.html" title="Searching for Transactions" alt="Searching for Transactions">first search for an existing transaction</a>&#160;to determine if it has already been entered or voided.</p>
+                                                <h2>Entering&#160;a Transaction: Adjustments, Deposits, Payments, Pre-Payments, Refunds</h2>
+                                                <ol start="1">
+                                                    <li value="1">Do one of the following:</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">Open the reservation in the Navigator&#160;and on the Transactions tab, click New &gt;&#160;Payment. (This method pre-populates many fields with information for the reservation).</li>
+                                                </ul>
+                                                <p>
+                                                    <img src="../../../Resources/Images/DTC_V44.1_Bill/Working with Transaction.png" alt="https://success.emssoftware.com/@api/deki/files/6222/clipboard_ed9ca01d359cd1f7bec45c85335c96773.png?revision=1" />
+                                                </p>
+                                                <ul>
+                                                    <li value="1">On the EMS Desktop Client menu bar, click Billing &gt; Payments &gt;&#160;Payment Entry, and then on the Payment Entries window, click&#160;New. (This method launches a blank Payment Entry form you must complete "from scratch").</li>
+                                                </ul>
+                                                <p>
+                                                    <img src="../../../Resources/Images/DTC_V44.1_Bill/Working with Transaction_1.png" alt="https://success.emssoftware.com/@api/deki/files/6223/clipboard_e35b2b1797de28cfe935f3d8cea972c36.png?revision=1" />
+                                                </p>
+                                                <h1 class="title">Payment Entry Window </h1>
+                                                <p>
+                                                    <img src="../../../Resources/Images/DTC_V44.1_Bill/Working with Transaction_2.png" alt="emsum_Billing_image020.png" />
+                                                </p>
+                                                <ol start="2">
+                                                    <li value="2">Select a&#160;Transaction Type: Adjustment, Damage Deposit, Deposit (Bookings), Deposit (Reservation), Payment, Pre-payment, Refund. Your selection in this field affects your entries in other fields in this form.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../../../Resources/Images/DTC_V44.1_Bill/Working with Transaction_3.png" alt="https://success.emssoftware.com/@api/deki/files/6224/clipboard_e403a762c030a9613a2dcdcb5c401e4d0.png?revision=1" />
+                                                </p>
+                                                <p>&#160;</p>
+                                                <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+                                                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                                                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                                                    <thead>
+                                                        <tr class="TableStyle-PatternedRows-Head-Header1">
+                                                            <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Transaction Type</th>
+                                                            <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">Description</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Adjustment</td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>A price adjustment for the event, such as a discount or late charge.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Damage Deposit</td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>A refundable amount to cover possible damages during the event.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Deposit (Reservation)</td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Deposit (Reservation)&#160;is best suited for reservations with one or more bookings that are to be invoiced in their entirety upon completion of the event.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Deposit (Bookings)</td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Deposit (Bookings)&#160;is best suited for reservations with multiple bookings, for example, an event with multiple occurrences spanning several months, that is to be billed monthly. A Deposit (Bookings) allows you to spread the deposit across multiple months so that only a portion of the deposit is consumed and applied to the invoice that is generated monthly. In this scenario, a large deposit that is entered as Deposit (Reservation) would be consumed in its entirety by the first invoice that is generated.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Payment or Pre-payment</td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Remember that pre-payments act just like deposits in that they are applied to a reservation and are applied to an invoice reducing the balance due. Payments are applied to an invoice.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Refund</td>
+                                                            <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">Funds reimbursed to the payee.</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p class="note-box">Tip:&#160;You can also void an existing transaction from this window by clicking the&#160;Void&#160;option. For detailed instructions, see&#160;<a href="#Voiding_a_Transaction" title="Working with Transactions" alt="Working with Transactions">Voiding Transactions</a>&#160;(below).</p>
+                                                <ol start="3">
+                                                    <li value="3">Enter additional information using the table below.</li>
+                                                </ol>
+                                                <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+                                                    <thead>
+                                                        <tr class="TableStyle-PatternedRows-Head-Header1">
+                                                            <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                                                                <p>Field</p>
+                                                            </th>
+                                                            <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                                                                <p>Description</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Transaction Date</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>The default value is the current day’s date. You can edit this value if needed.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Department</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Select the department.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Payment Type</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Select the payment type.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Check No.</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Enter a check number if you selected “Check” as the payment Type.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Amount</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Enter the amount of the transaction.&#160;To decrease the invoice by this&#160;amount, enter a minus sign (-) before or after the amount.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Currency</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Select the currency for the transaction.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Reservation No.</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Automatically populated if you opened this window from the Transaction tab in the Navigator; otherwise, enter a reservation number or Search&#160;<img src="../../../Resources/Images/DTC_V44.1_Bill/Working with Transaction_4.png" alt="emsum_Billing_image021.png" />&#160;for a reservation.</p>
+                                                                <p>Adjustments,&#160;Payments, Refunds: This field is not available for these transaction types since they&#160;are applied to invoices, not reservations.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Invoice No.</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>When required, Search&#160;<img src="../../../Resources/Images/DTC_V44.1_Bill/Working with Transaction_4.png" alt="emsum_Billing_image021.png" />&#160; for an invoice (with a specific date and Employee or Customer&#160;name from the&#160;Department&#160;you specified)&#160;to associate with this transaction .</p>
+                                                                <p>Deposits,&#160;Pre-payments: This field is not required for deposits and pre-payments since they are&#160;applied before an invoice is generated. The invoicing process totals the charges for the specified date range, consumes any applied&#160;reservation&#160;deposits, and results in a net balance due for the invoice. The invoicing process does not consume any Damage deposits.</p>
+                                                                <p>See Also:&#160;<a href="DC_UG_WorkwithInvoices.html" title="Working with Invoices" alt="Working with Invoices">Working&#160;With Invoices.</a></p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                                                                <p>Notes</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                                                                <p>Optional. Enter any other comments or statements that explain or clarify the transaction.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <ol start="4">
+                                                    <li value="4">Click&#160;OK.&#160;The Payment Entry dialog box closes. The transaction information is displayed on the Transactions tab for the reservation.</li>
+                                                </ol>
+                                                <h2><a name="Voiding"></a>Voiding&#160;a Transaction&#160;</h2>
+                                                <ol start="1">
+                                                    <li value="1">Open the reservation in the Navigator&#160;and on the Transactions tab, select the transaction you wish to void (CTRL-click to select multiple transactions), and then click&#160;Void.&#160;A Void Reason dialog box opens.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../../../Resources/Images/DTC_V44.1_Bill/Working with Transaction_5.png" alt="https://success.emssoftware.com/@api/deki/files/6225/VoidTransactionpopup.png?revision=1" />
+                                                </p>
+                                                <p class="note-box">Tip:&#160;You&#160;can also void a transaction by opening it in Edit mode from the Transactions tab or by locating the transaction by date under the&#160;Billing &gt; Payments &gt;&#160;Payment Entry&#160;option in the EMS Desktop Client menu bar; on the Payment Entry window that displays, select&#160;the&#160;Void&#160;option.</p>
+                                                <ol start="2">
+                                                    <li value="2">Enter the reason for voiding the transactions, and then click&#160;OK.&#160;</li>
+                                                    <li value="3">The Void Reason dialog box closes and a message confirms&#160;that the transaction has been voided.&#160;Click&#160;OK&#160;to return to the Navigator. The Void column is set to&#160;Yes&#160;for each of the voided transactions in the Navigator.</li>
+                                                </ol>
+                                            </div>
+                                            <!-- <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Back Separator Print Forward;" />-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer center">
+                                <div class="container">
+                                    <div class="HomeMasterPageFooter outer-row">
+                                        <div><a href=""><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../../ContactUs.htm"> Contact </a>|<a href="mailto:success@emssoftware.com?subject=Documentation Feedback"> Feedback</a></a>
+                                            <p class="Copyright">© <span class="GeneralYear">2018</span> <span class="GeneralMy Company">EMS&#160;Software</span>, LLC. All Rights Reserved.</p>
+                                        </div>
+                                        <div class="footer-icons"><a href="" class="facebook"></a><a href="" class="twitter"></a><a href="" class="youtube"></a><a href="" class="linkedin"></a><a href="" class="googleplus"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script src="../../../Resources/Scripts/sidemenu.js">
+                            </script>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

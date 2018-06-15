@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="emsWebapp _Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-has-content-body="True" data-mc-community-features="disabled" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="print" data-mc-toc-path="Older Releases|Version 44|Virtual EMS (VEMS) Configuration Guide (V44)">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Configure Web Templates</title>
+        <link rel="icon" href="../../../Resources/Images/favicon.png" />
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" />
+        <link href="../../../EMSDesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="../../../Home.htm" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="2" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="How Can We Help You?" />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="How Can We Help You?">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <div class="content">
+                                <div id="contentBody">
+                                    <div class="row collapse">
+                                        <div class="topichero">
+                                            <div class="title-text">
+                                                <form class="search" action="#">
+                                                    <div class="search-bar search-bar-container needs-pie _Skins_HomeSearchBar mc-component">
+                                                        <input class="search-field needs-pie" type="search" placeholder="What can we help you find?" />
+                                                        <div class="search-filter-wrapper">
+                                                            <div class="search-filter">
+                                                                <div class="search-filter-content">
+                                                                    <ul>
+                                                                        <li>All Files</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-submit-wrapper" dir="ltr">
+                                                            <div class="search-submit" title="How Can We Help You?">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="nocontent">
+                                                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                </div>
+                                            </div>
+                                            <div class="sideContent small-3 columns" id="smartmenu-accordion">
+                                                <ul class="nocontent menu _Skins_SideMenu mc-component" data-mc-linked-toc="Data/Tocs/Icon_WebApp.js" data-mc-side-menu="True" data-mc-max-depth="-1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="False" data-mc-include-siblings="False" data-mc-include-parent="False" data-mc-toc="True">
+                                                </ul>
+                                            </div>
+                                            <div class="small-9 columns right-content">
+                                                <h1>Configure Web Templates</h1>
+                                                <p>A&#160;web user&#160;is a registered user who can submit requests for reservations or schedule reservations in VEMS. A&#160;web template&#160;defines and controls the access that a web user has in VEMS. VEMS uses two types of web templates—a web security template and a web process template.</p>
+                                                <ul>
+                                                    <li value="1"><span class="bold">Web Security template</span>—You&#160;configure&#160;a web security template to specify which menu items are available to the users who are assigned to the template, which fields can be viewed in event tooltips, and other information. A single pre-defined web user—&#160;unauthenticated user—is defined by default for any VEMS implementation. You use this role to manage the settings for an anonymous or “guest” users.</li>
+                                                    <li value="2"><span class="bold">Web Process template</span>—You&#160;configure&#160;web process templates to support the various types of reservations (conference room, workspace, study room, and so on) at your organization as well as date/time restrictions, room security (reserve, request only, no access), and service availability (A/V, catering, and so on) at your organization.</li>
+                                                </ul>
+                                                <p>This topic will provide information that will allow you to:</p>
+                                                <ul>
+                                                    <li value="1"><a href="#ConfigureWebSecurity" class="MCXref xref">Configure a Web Security Template</a>
+                                                    </li>
+                                                    <li value="2"><a href="#ConfigureWebProcess" class="MCXref xref">Configure a Web&#160;Process Template</a>
+                                                        <ul>
+                                                            <li value="1"><a href="#Web" class="MCXref xref">Web Template Tab</a>
+                                                            </li>
+                                                            <li value="2"><a href="#Booking" class="MCXref xref">Booking Rules Tab</a>
+                                                            </li>
+                                                            <li value="3"><a href="#Defaults" class="MCXref xref">Defaults Tab</a>
+                                                            </li>
+                                                            <li value="4"><a href="#VideoC" class="MCXref xref">Video Conference Tab</a>
+                                                            </li>
+                                                            <li value="5"><a href="#Rooms" class="MCXref xref">Rooms Tab</a><a href="#Categories" class="MCXref xref">Categories Tab</a>
+                                                            </li>
+                                                            <li value="6"><a href="#Event" class="MCXref xref">Event Types Tab</a>
+                                                            </li>
+                                                            <li value="7"><a href="#LDAP" class="MCXref xref">LDAP Groups tab</a>
+                                                            </li>
+                                                            <li value="8"><a href="#User" class="MCXref xref">User Defined Fields Tab</a>
+                                                            </li>
+                                                            <li value="9"><a href="#Parameters" class="MCXref xref">Parameters Tab</a>
+                                                            </li>
+                                                            <li value="10"><a href="#WebText" class="MCXref xref">Web Text Tab</a>
+                                                            </li>
+                                                            <li value="11"><a href="#Menu" class="MCXref xref">Menu Text Translations Tab</a>
+                                                            </li>
+                                                            <li value="12"><a href="#Terms" class="MCXref xref">Terms and Conditions Tab</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <h2><a name="ConfigureWebSecurity"></a>Configure a Web Security Template</h2>
+                                                <ol>
+                                                    <li value="1">On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Web </span>&gt; <span class="bold">Web Security Templates</span>.&#160;The Web Security Templates window opens. This window lists the one web user role (unauthenticated user) that is defined by default for any VEMS implementation as well as any other web security templates that have been defined for your VEMS implementation.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates.png" alt="emssg_VEMSInfo_image001.png" />
+                                                </p>
+                                                <p>Tip:&#160;The remainder of this procedure describes how to configure a web security template “from scratch.” You can also configure a web security template by copying an existing rule. Select the web security template that you are copying, click Copy, and then go to&#160;Step 3.</p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">Click <span class="bold">New</span>.&#160;The Web Security Template dialog box opens. The Web Security Template tab is the active tab.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_2.png" alt="emssg_VEMSInfo_image002.png" />
+                                                </p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="3">Enter the information for the new web user role.</li>
+                                                </ol>
+                                                <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+                                                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                                                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                                                    <thead>
+                                                        <tr class="TableStyle-PatternedRows-Head-Header1">
+                                                            <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                                                                <p>Option</p>
+                                                            </th>
+                                                            <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                                                                <p>Description</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Description</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>The description or name for the web security template.</p>
+                                                                <p>Note:&#160;The description can be a maximum of 50 characters, including spaces.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Allow User to Add Groups</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Selected by default. Users who are attached to this web security template can select from a list of existing groups in your EMS database when submitting a request or making a reservation.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Allow User to Add Contacts</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Select this option if you want users who are attached to this web security template to be able to select from a list of existing contacts in your EMS database when submitting a request or making a reservation.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                                                                <p>Allow User to Set Default Contact</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                                                                <p>Available only if Allow User to Add Contacts is selected. Select this option if you want users who are attached to this web template to be able to specify a default contact for a selected group when submitting a request or making a reservation.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <ol data-mc-continue="true">
+                                                    <li value="4">Roles are the tasks that a user who is assigned to the selected template can carry out. Open the Roles tab, and on the Available list, select the role, or CTRL-click to select the multiple roles for the users who are to be assigned to this template, and then click the Move button (&gt;) to move the selected roles to the Selected list.</li>
+                                                </ol>
+                                                <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../EMSDesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+                                                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                                                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                                                    <thead>
+                                                        <tr class="TableStyle-PatternedRows-Head-Header1">
+                                                            <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                                                                <p>Role</p>
+                                                            </th>
+                                                            <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                                                                <p>Description</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Allow Check In/Allow Check Out</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Allows a VEMS user to check in to/check out of a building from VEMS and the EMS Kiosk.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Browse Events</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Provides access to the Events calendar in VEMS.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Browse for Space</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Allows a VEMS user to browse for available rooms in a read-only grid view.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Create\Edit an Account</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>For the (unauthenticated user) template, allows a new user to create his/her own VEMS user account. This new web user account is set to active or pending based on your VEMS parameter settings. For the authenticated users, this determines if an existing web user can access the Edit My Account area within VEMS.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Custom Events</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Provides access to any custom events calendars created.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Delegation</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Allows VEMS users to delegate control of their reservations (new and existing) to other VEMS web users.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Locate Group</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Allows a VEMS user to view a specific group's reservations for today.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Location Details</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Allows a VEMS user to view details (room type, size, phone, features, setup types, images and so on) about a room.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Login\Logout</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Allows an anonymous user or “guest” to log in to VEMS.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>View Floor Map</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Requires the optional Floor Plan module. Allows a VEMS user to view and book rooms on a floor plan.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                                                                <p>Web Administrator</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                                                                <p>Available only for the authenticated administrator template. Provides access to various administrative functions within VEMS such as clearing the cache, enabling help text edit model and enabling detailed errors.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <ol data-mc-continue="true">
+                                                    <li value="5">Tool Tip Fields is the information that is displayed in grid tooltips when a VEMS user reserves a room in the Room Request area or browses for space in the Browse for Space Area. Open the Tool Tip Fields tab, and on the Available list, select what information is to be displayed in the grid tooltips (CTRL-click to select multiple items), and then click the Move button (&gt;) to move the selected items to the Selected list.</li>
+                                                    <li value="6">Click <span class="bold">OK</span>.&#160;The Web Security Template dialog box closes. The changes are saved to the template. You return to the Web Security Templates window.</li>
+                                                </ol>
+                                                <h2><a name="ConfigureWebProcess"></a>Configure a Web&#160;Process Template</h2>
+                                                <p>In EMS Enterprise, the (unauthenticated user) web process template is always available and you can have an unlimited number of other web process templates. In EMS Professional, the (unauthenticated user) web process template is always available, but you can have only two additional web process templates. An unlimited number of web process templates is not allowed in EMS Professional.</p>
+                                                <ol>
+                                                    <li value="1">On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Web </span>&gt; <span class="bold">Web Process Templates</span>.&#160;The Web Process Templates window opens. The window lists the one web process template (unauthenticated user) that is defined by default for any VEMS implementation as well as any other active web process templates that have been defined for your VEMS implementation. The window also lists the currently defined value for the&#160;menu text&#160;that is associated with each template.</li>
+                                                </ol>
+                                                <p>Tip:&#160;The menu text is the text or link that a VEMS user sees when requesting a room using a web process template. This is discussed in detail later in this section. </p>
+                                                <p>
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_3.png" alt="emssg_VEMSInfo_image003.png" />
+                                                </p>
+                                                <p>Tip:&#160;Optionally, to view all web process templates in your EMS database, regardless of status, under Show, click Inactive.</p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">Click <span class="bold">New</span>.&#160;The Web Process Template dialog box opens. The Web Template tab is the active tab.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_4.png" alt="emssg_VEMSInfo_image004.png" />
+                                                </p>
+                                                <p>Tip:&#160;If you are editing a web process template, then the Web Template tab is available for all web process templates other than the unauthenticated user template. If you selected unauthenticated user, then the Booking Rules tab is the active tab when the dialog box opens.</p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="3">Enter the information for the new web process template as needed. See sections below.</li>
+                                                </ol>
+                                                <ol data-mc-continue="true">
+                                                    <li value="4">Click <span class="bold">OK</span>.&#160;The changes to the web process template are saved. For a web user to be able to view and use this template, you must assign the user to the template. See&#160;<a href="VEMS_CG_ConfigWebUser.htm" title="Configuring Web Users" alt="Configuring Web Users">Configure Web Users.</a></li>
+                                                </ol>
+                                                <h3 class="Heading3_1"><a name="Web"></a>Web Template Tab</h3>
+                                                <ol>
+                                                    <li value="1">Enter the information for the new template.</li>
+                                                </ol>
+                                                <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+                                                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                                                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                                                    <thead>
+                                                        <tr class="TableStyle-PatternedRows-Head-Header1">
+                                                            <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                                                                <p>Field</p>
+                                                            </th>
+                                                            <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                                                                <p>Description</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Description</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Read-only information.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Mode</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Determines how a user can make a reservation in VEMS.</p>
+                                                                <ul>
+                                                                    <li value="1">Request – Web users can complete a simple online form requesting a room. Unlike the Self Serve mode, this mode does not provide options for the web user to view real-time room availability. In addition, requests must be reviewed, approved, and manually processed into actual reservations by an EMS client user. The room is not taken out of inventory until this step has occurred.</li>
+                                                                </ul>
+                                                                <p>Note: Starting in the January 2016 release, the "Request" mode is only available to the unauthenticated process template.&#160; It will no longer be selectable when creating/editing a process template.&#160; Any previous "Request" templates will be inactivated when EMS is updated to thsi version.</p>
+                                                                <ul>
+                                                                    <li value="1">Self Serve – Registered web users can view real-time room availability (in list or grid views) and create actual reservations in the EMS database. Rooms can be booked in a confirmed or request status based on your configuration and business process.</li>
+                                                                </ul>
+                                                                <p>Note:&#160;You must select this option if the web users who are attached to this web process template must be able to request rooms that have a video conferencing feature.</p>
+                                                                <ul>
+                                                                    <li value="1">Service Only Request – Allows web users to request a service (for example, catering, A/V equipment, and so on) for a location that is not managed in EMS.</li>
+                                                                </ul>
+                                                                <p>Note:&#160;Various settings within the Web Process template are enabled/disabled based on the selected mode.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Menu Text</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>The menu text or link that a VEMS user sees when requesting a room using this web process template.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Available to New Web Users</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Select this option if this web process template is to be automatically assigned to newly registered web users.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Enable for Mobile Device</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Select this option if this web process template is to be available (in an appropriate format) on a mobile device browser.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Outlook</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Enables the web process template for use with the EMS for Outlook module.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Parent Menu</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>The parent menu item on the VEMS main menu under which the name of this template appears.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Reserve Status</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Available only for Self Serve mode. The default status that is applied to reservations that are booked in rooms identified as 'reserveable' on the Rooms tab.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Request Status</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Available only for Self Serve mode. The default status that is applied to reservations that are booked in rooms identified as 'requestable' on the Rooms tab.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Conflict Status</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p class="anchornote_1">Available only for Self Serve mode. The default status that is applied to bookings made by web users attached to this template that result in a conflict (the room is already booked).</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Cancel Status</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Available only for Self Serve mode. The default status that is applied to bookings that are canceled by web users who are attached to this template.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Rule Violation Status</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Enabled only if Outlook is selected. Used in conjunction with the EMS for Outlook module. If you carry out an action in the EMS for Outlook module that violates a category date/time restriction, then the booking is changed to this status.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Default Setup Type</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>The setup type that is selected by default for a room search when a web user who is attached to this template is reserving a room in VEMS. The web user can always select a different value.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Allow Invitations</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Enabled only if your organization has purchased the optional Plan a Meeting (PAM) module. Select this option if users who are attached to this template must be able to see the free/busy schedules of the attendees. The web user can choose a date and time that is convenient for all attendees and then send invitations through VEMS, which attendees receive and can manage through Outlook.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Allow Web User Personalization</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Select this option if web users must be able to use the Options feature to customize their settings on VEMS pages.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Menu Sequence</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Enter a number that indicates the order in which this menu option is relative to other menu items that fall under the same parent menu. Items are ordered from lowest to highest sequence number, with the item with the lowest sequence number appearing first.</p>
+                                                                <p>Note:&#160;If you leave the sequence set to the default value of zero for all menu items, then by default, the items are displayed alphabetically.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Video Conference</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>Select this option if the web users who are attached to this template must be able to request rooms that have a video conferencing feature.</p>
+                                                                <p>Note:&#160;This option is available only for EMS Enterprise. It is not available for EMS Professional. To use the Video Conference option correctly with a web process template, the Self Serve Mode must be selected for the template.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                                                                <p>Available at Checkout</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                                                                <p>Select this option if the web users who are attached to this template must be able to select category resource items on the VEMS “checkout page” (the last page in the Room Request process) in VEMS.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">Continue with any other configuration for the templates as needed; otherwise, click OK to save the changes to the template. For a web user to be able to view and use this template, you must assign the user to the template. See&#160;<a href="VEMS_CG_ConfigWebUser.htm" class="MCXref xref">Configure Web Users</a>.</li>
+                                                </ol>
+                                                <h3><a name="Booking"></a>Booking Rules Tab</h3>
+                                                <ol>
+                                                    <li value="1">Open the Booking Rules tab.&#160;</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_5.png" alt="emssg_VEMSInfo_image005.png" />
+                                                </p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">In the Booking Requirements pane, do the following:</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">In the Max. No. Bookings Allowed Per Reservation field, enter the maximum number of bookings that a new reservation can contain.</li>
+                                                    <li value="2">In the Max. No. Minutes Allowed field, enter the maximum number of minutes for which a new reservation can be created. (This setting is not enforced when a user edits a booking.)</li>
+                                                </ul>
+                                                <ol data-mc-continue="true">
+                                                    <li value="3">Use the time of day and number of days or the number of hours to dictate how far in advance of an event a booking can be canceled.</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">To use a specific cutoff time, select <span class="bold">Use Cancellation Cutoff Time</span>, and in the Cutoff Time and Number of Days fields, specify a time of day and a number of days. respectively. For example, if you enter 3 p.m. and one day, then cancellation must take place before 3 p.m. on the day before the event.</li>
+                                                    <li value="2">To use the number of hours instead of a specific time as a cutoff, clear <span class="bold">Use Cancellation Cutoff Time</span> and in the <span class="bold">Cancellation Cutoff Hours</span> field, specify a number of hours. For example, if you enter 24, then bookings cannot be canceled less than 24 hours before they are to take place, regardless of the time of day.</li>
+                                                </ul>
+                                                <ol start="4">
+                                                    <li value="4">Optionally, select one or both of the following:</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">Cancel Booking in Progress—A web user can cancel a booking that is currently in progress. If you select this option, then the Cancel Booking in Progress Status option is enabled. The status that you select here is applied to bookings that a web user cancels after the booking is already in progress.</li>
+                                                </ul>
+                                                <p>Tip:&#160;If the appropriate status is not available, you can configure it. See&#160;<a href="../../../EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigStatuses.htm" class="MCXref xref">Configure Statuses</a>.</p>
+                                                <ul>
+                                                    <li value="1"> End Booking in Progress—A web user can end a booking that is in progress early, which makes the room available to other web users.</li>
+                                                </ul>
+                                                <ol start="5">
+                                                    <li value="5">In the fields in the Booking Days panel, indicate how far into the future bookings can be made and how much lead time is required to make a booking.</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">If you select Range of Days from the first dropdown menu, then you must also specify a value for Only Allow New Bookings within Range of This Many Days. If you select Specific Date, then you must specify a value for Only Allow New Bookings Prior to This Date to dictate the future range.</li>
+                                                    <li value="2">The second dropdown menu sets the lead time requirement. If you choose Range of Days, you must indicate a cutoff time or cutoff hours as you did for cancellations. (See&#160;Step 3 above.) If you choose Specific Date, you must select a date in the Only Allow New Bookings After This Date field.</li>
+                                                </ul>
+                                                <ol start="6">
+                                                    <li value="6">Continue with any other configuration for the templates as needed; otherwise, click OK to save the changes to the template. For a web user to be able to view and use this template, you must assign the user to the template. See&#160;<a href="VEMS_CG_ConfigWebUser.htm" class="MCXref xref">Configure Web Users</a>.</li>
+                                                </ol>
+                                                <h3><a name="Defaults"></a>Defaults Tab</h3>
+                                                <ol>
+                                                    <li value="1">Open the Defaults tab.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_6.png" alt="emssg_VEMSInfo_image006.png" />
+                                                </p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">Enter the default values for Event Type, Event Name, Building, Event Time Start/End, and Time Zone. These defaults values automatically populate the correct fields on the Room Requests page, but a user can edit them as needed.</li>
+                                                </ol>
+                                                <p>Tips:&#160;If the appropriate event type is not available, you can configure it. See&#160;<a href="../../../EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEventType.html" class="MCXref xref">Configure Event Types</a>.&#160;If the appropriate building is not available, you can configure it. See&#160;<a href="../../../EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuilding.html" class="MCXref xref">Configuring Buildings</a>.</p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="3">Continue with any other configuration for the templates as needed; otherwise, click <span class="bold">OK </span>to save the changes to the template. For a web user to be able to view and use this template, you must assign the user to the template. See&#160;<a href="VEMS_CG_ConfigWebUser.htm" class="MCXref xref">Configure Web Users</a>.</li>
+                                                </ol>
+                                                <h3><a name="VideoC"></a>Video Conference Tab</h3>
+                                                <p>Tip:&#160;This tab is available only in EMS Enterprise and only if the Video Conference option was selected on the Web Template tab. For information on how to configure the information on this tab correctly so that users who are attached to this web process template can request rooms that have a video conferencing features, see&#160;<a href="../../../EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_VC.html" class="MCXref xref">Video Conferencing</a>.</p>
+                                                <p>
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_7.png" alt="emssg_VEMSInfo_image007.png" />
+                                                </p>
+                                                <h3><a name="Rooms"></a>Rooms Tab</h3>
+                                                <ol>
+                                                    <li value="1">Open the Rooms tab.</li>
+                                                </ol>
+                                                <p>Web Process Template dialog box, Rooms tab</p>
+                                                <p>
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_8.png" alt="emssg_VEMSInfo_image008.png" />
+                                                </p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">Specify your Building and Room Type search criteria.</li>
+                                                </ol>
+                                                <p>Tips:&#160;On the Building dropdown list, you have the option of selecting all buildings, just a specific building, an area, or a view. If any of the appropriate items are not available, you can configure them. See&#160;<a href="../../../EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuilding.html" class="MCXref xref">Configuring Buildings</a>,&#160;<a href="../../../EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAreas.html" class="MCXref xref">Configure Areas</a>,&#160;<a href="../../../EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigPublicViews.html" class="MCXref xref">Configure Public Views</a>,&#160;or&#160;<a href="../../../EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigRoomType.html" class="MCXref xref">Configure Room Types</a>.</p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="3">On the Available list, select the room or CTRL-click to select the multiple rooms that users who are attached to this web template must be able to book, and then click the Move button (&gt;) to move the selected rooms to the appropriate Selected list.</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">Move rooms that can be reserved without approval (that is, booked into the Reserve Status on the Web Template tab) into the Reserve pane.</li>
+                                                    <li value="2">Move rooms that require approval (that is, booked into the Request Status on the Web Template tab) into the Request pane.</li>
+                                                </ul>
+                                                <ol start="4">
+                                                    <li value="4">Continue with any other configuration for the templates as needed; otherwise, click OK to save the changes to the template. For a web user to be able to view and use this template, you must assign the user to the template. See&#160;<a href="VEMS_CG_ConfigWebUser.htm" class="MCXref xref">Configure Web Users</a>.</li>
+                                                </ol>
+                                                <h3><a name="Categories"></a>Categories Tab</h3>
+                                                <ol>
+                                                    <li value="1">Open the Categories tab.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_9.png" alt="emssg_VEMSInfo_image009.png" />
+                                                </p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">On the Available list, select the category or CTRL-click to select the multiple categories that users who are attached to this web template must be able to add to a booking, and then click the Move button (&gt;) to move the selected categories to the Selected list.</li>
+                                                </ol>
+                                                <p>Tip:&#160;If the appropriate category is not available, you can configure it. See&#160;<a href="../../../EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCategory.html" class="MCXref xref">Configure Categories</a></p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="3">Continue with any other configuration for the templates as needed; otherwise, click OK to save the changes to the template. For a web user to be able to view and use this template, you must assign the user to the template. </li>
+                                                </ol>
+                                                <h3 class="Heading3_1"><a name="Event"></a>Event Types Tab</h3>
+                                                <ol>
+                                                    <li value="1">Open the Event Types tab.</li>
+                                                </ol>
+                                                <p>Web Process Template dialog box, Event Types tab</p>
+                                                <p>
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_10.png" alt="emssg_VEMSInfo_image010.png" />
+                                                </p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">On the Available list, select the event type or CTRL-click to select the multiple event types that users who are attached to this web template must be able to select, and then click the Move button (&gt;) to move the selected types to the appropriate Selected list.</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">Move the event types that apply only to this web process template into the Selected pane.</li>
+                                                </ul>
+                                                <h3><a name="LDAP"></a>LDAP Groups tab</h3>
+                                                <p>You use this tab to assign web process templates to VEMS users based on LDAP Groups that are defined in your directory service, for example, Active Directory.</p>
+                                                <p>Tip:&#160;Web process templates that are assigned via LDAP do not need to be explicitly assigned to web user records. When web users log in to VEMS, they “inherit” the web process templates based on the LDAP groups to which they belong.</p>
+                                                <ol>
+                                                    <li value="1">Open the LDAP Groups tab.</li>
+                                                </ol>
+                                                <p>Web Process Template dialog box, LDAP Groups tab</p>
+                                                <p>
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_11.png" alt="emssg_VEMSInfo_image011.png" />
+                                                </p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">On the Available list, select the LDAP group or CTRL-click to select the multiple groups, and then click the Move button (&gt;) to move the selected groups to the Selected list.</li>
+                                                    <li value="3">Continue with any other configuration for the templates as needed; otherwise, click OK to save the changes to the template. For a web user to be able to view and use this template, you must assign the user to the template. </li>
+                                                </ol>
+                                                <h3><a name="User"></a>User Defined Fields Tab</h3>
+                                                <ol>
+                                                    <li value="1">Open the User Defined fields tab.</li>
+                                                </ol>
+                                                <p>Web Process template, User Defined Fields tab</p>
+                                                <p>
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_12.png" alt="emssg_VEMSInfo_image012.png" />
+                                                </p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">On the Available list, select the question or CTRL-click to select the multiple questions that users who are attached to this web template must answer when reserving space, and then click the Move button (&gt;) to move the selected questions to the appropriate Selected list.</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">Move questions that require an answer into the Required pane.</li>
+                                                    <li value="2">Move questions that are optional into the Optional pane.</li>
+                                                </ul>
+                                                <p class="bulletlev1_1">Tip:&#160;If the appropriate UDF is not available, you can configure it. See&#160;<a href="../../../EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigUDF.html" class="MCXref xref">Configuring User Defined Fields (UDFs)</a>.</p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="3">Continue with any other configuration for the templates as needed; otherwise, click OK to save the changes to the template. For a web user to be able to view and use this template, you must assign the user to the template. </li>
+                                                </ol>
+                                                <h3 class="Heading3_1"><a name="Parameters"></a>Parameters Tab</h3>
+                                                <ol>
+                                                    <li value="1">Open the Parameters tab.</li>
+                                                </ol>
+                                                <p class="figurecaptioncolumn_1">
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_13.png" alt="emssg_VEMSInfo_image013.png" class="img_1" />
+                                                </p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">By default, a web process template inherits its parameter settings from the global list of VEMS parameters. (See&#160;“VEMS System Parameters”.) You can review the values for these parameters, and edit the values as needed for the template.</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">To edit the value for a parameter, select the parameter, and then click Edit.</li>
+                                                    <li value="2">To reset the value for a parameter to its default global value, select the parameter, and then click Use Global.</li>
+                                                </ul>
+                                                <ol data-mc-continue="true">
+                                                    <li value="3">Continue with any other configuration for the templates as needed; otherwise, click OK to save the changes to the template. For a web user to be able to view and use this template, you must assign the user to the template. </li>
+                                                </ol>
+                                                <h3 class="Heading3_1"><a name="WebText"></a>Web Text Tab</h3>
+                                                <ol>
+                                                    <li value="1">Open the Web Text tab.</li>
+                                                </ol>
+                                                <p class="figurecaptioncolumn_1">
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_14.png" alt="emssg_VEMSInfo_image014.png" class="img_1" />
+                                                </p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">By default, web text items inherit their settings from the global Web Text list. (See&#160;“Configuring Web Text”.) You can use the list of web text items on the Web Text tab to override the settings for this particular template if needed.</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">To edit the value for a web text item, select the item, and then click Edit.</li>
+                                                    <li value="2">To reset the value for an item to its default global value, select the item, and then click Use Global.</li>
+                                                </ul>
+                                                <ol data-mc-continue="true">
+                                                    <li value="3">Continue with any other configuration for the templates as needed; otherwise, click OK to save the changes to the template. For a web user to be able to view and use this template, you must assign the user to the template. </li>
+                                                </ol>
+                                                <h3 class="Heading3_1"><a name="Menu"></a>Menu Text Translations Tab</h3>
+                                                <p>Tip:&#160;You need to provide information on this tab only if a foreign language translation has been defined for web templates. See&#160;<a href="VEMS_CG_ConfigWebCulture.htm" class="MCXref xref">Configure Web Cultures</a>. </p>
+                                                <ol>
+                                                    <li value="1">Open the Menu Text Translations tab.</li>
+                                                </ol>
+                                                <p class="figurecaptioncolumn_1">
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_15.png" alt="emssg_VEMSInfo_image015.png" class="img_1" />
+                                                </p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">For each translation that is displayed on the tab, click in the Text field, and then enter the appropriate translation for the menu text (the menu text or link that a VEMS user sees when requesting a room using this web process template).</li>
+                                                    <li value="3">Continue with any other configuration for the templates as needed; otherwise, click OK to save the changes to the template. For a web user to be able to view and use this template, you must assign the user to the template. </li>
+                                                </ol>
+                                                <h3 class="Heading3_1"><a name="Terms"></a>Terms and Conditions Tab</h3>
+                                                <p class="body_1">Before users can submit reservations through VEMS, they must agree to the Terms and Conditions that you specify on this tab.</p>
+                                                <ol>
+                                                    <li value="1">Open the Terms and Conditions tab.</li>
+                                                </ol>
+                                                <p class="figurecaptioncolumn_1">
+                                                    <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_16.png" alt="emssg_VEMSInfo_image016.png" class="img_1" />
+                                                </p>
+                                                <ol data-mc-continue="true">
+                                                    <li value="2">Format a Terms and Conditions message that is displayed in VEMS when a web user selects a room.</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">Design is selected by default. Use the standard Windows plain text formatting options to format the message (spacing, number of lines, capitalization, and so on) so that it is displayed the way that you want in the Terms and Conditions.</li>
+                                                    <li value="2">Select HTML and enter the necessary HTML code to format the message (spacing, number of lines, capitalization, and so on) so that it is displayed the way that you want in the Terms and Conditions.</li>
+                                                </ul>
+                                                <ol data-mc-continue="true">
+                                                    <li value="3">Continue with any other configuration for the templates as needed; otherwise, click OK to save the changes to the template. For a web user to be able to view and use this template, you must assign the user to the template. </li>
+                                                </ol>
+                                            </div>
+                                            <!-- <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Back Separator Print Forward;" />-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer center">
+                                <div class="container">
+                                    <div class="HomeMasterPageFooter outer-row">
+                                        <div><a href=""><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../../ContactUs.htm"> Contact </a>|<a href="mailto:success@emssoftware.com?subject=Documentation Feedback"> Feedback</a></a>
+                                            <p class="Copyright">© <span class="GeneralYear">2018</span> <span class="GeneralMy Company">EMS&#160;Software</span>, LLC. All Rights Reserved.</p>
+                                        </div>
+                                        <div class="footer-icons"><a href="" class="facebook"></a><a href="" class="twitter"></a><a href="" class="youtube"></a><a href="" class="linkedin"></a><a href="" class="googleplus"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script src="../../../Resources/Scripts/sidemenu.js">
+                            </script>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

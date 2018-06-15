@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="emsWebapp _Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="print" data-mc-toc-path="">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>EMS Web App Upgrade Considerations</title>
+        <link rel="icon" href="../../../Resources/Images/favicon.png" />
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="../../../Home.htm" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="2" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="How Can We Help You?" />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="How Can We Help You?">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <div class="content">
+                                <div id="contentBody">
+                                    <div class="row collapse">
+                                        <div class="topichero">
+                                            <div class="title-text">
+                                                <form class="search" action="#">
+                                                    <div class="search-bar search-bar-container needs-pie _Skins_HomeSearchBar mc-component">
+                                                        <input class="search-field needs-pie" type="search" placeholder="What can we help you find?" />
+                                                        <div class="search-filter-wrapper">
+                                                            <div class="search-filter">
+                                                                <div class="search-filter-content">
+                                                                    <ul>
+                                                                        <li>All Files</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-submit-wrapper" dir="ltr">
+                                                            <div class="search-submit" title="How Can We Help You?">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="sideContent small-3 columns" id="smartmenu-accordion">
+                                                <ul class="nocontent menu _Skins_SideMenu mc-component" data-mc-linked-toc="Data/Tocs/Icon_WebApp.js" data-mc-side-menu="True" data-mc-max-depth="-1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="False" data-mc-include-siblings="False" data-mc-include-parent="False" data-mc-toc="True">
+                                                </ul>
+                                            </div>
+                                            <div class="small-9 columns right-content">
+                                                <h1>EMS Web App Upgrade Considerations</h1>
+                                                <p>When planning to upgrade from previous versions of VEMS to the new EMS Web App, you should take the following new features, functionality, and default settings into consideration.</p>
+                                                <p>Time Zone Settings</p>
+                                                <p>Web Users should be assigned to a time zone for an optimal experience.</p>
+                                                <p>Configuration and Parameter Settings</p>
+                                                <p>Due to a change in product naming, you will need to update the name of the Exchange Integration Web Service URL parameter. See Also: EMS Web App parameters.</p>
+                                                <p>For an optimal user-interface experience, we recommend keeping text-based fields and notes (e.g., Room Descriptions, Process Template Descriptions, Event Names, etc.) as brief as possible.</p>
+                                                <p>New parameters have been introduced:</p>
+                                                <p>For organizations who direct everyday users to manually create their own accounts:</p>
+                                                <p>Sign Up Confirmation Email</p>
+                                                <p>Sign Up Success Email</p>
+                                                <p>Request Received Email</p>
+                                                <p>Password Reset Email</p>
+                                                <p>Password Reset Success Email</p>
+                                                <p>Default Home Page of Site Home or My Home (My Home is the default).</p>
+                                                <p>Show Infographics on My Home (No is the default).</p>
+                                                <p>Default Cancel Reason</p>
+                                                <p>Some parameters have been updated:</p>
+                                                <p>Default Account Status for Newly-Created User (formerly Security Status for User) - Options are Active or Pending. Inactive option has been removed.</p>
+                                                <p>Browse Events - Display Format - Reduced to Daily, Weekly, and Monthly options.</p>
+                                                <p>Setup Type Validation Rule - No longer affects room searching. Will still handle Setup Type display and validating attendance against capacties.</p>
+                                                <p>Allow Access to System Check Pages from Any Machine? - No longer applies to EMS Web App as SystemCheck.aspx has been removed for this application.</p>
+                                                <p>Default Value for Attendance - Default is now "1." Existing configurations of this parameter for any value other than "0" will not be affected upon upgrade.</p>
+                                                <p>Some parameters have been removed for V44.1:</p>
+                                                <p>Note Label on Account Management - Field is no longer exposed to the everyday user.</p>
+                                                <p>Number of Hours to Show on Browse for Space - No longer applicable.</p>
+                                                <p>Maximum Number of Events/Day to Display - No longer applicable. Maximums now set per view (Daily, Weekly, or Monthly).</p>
+                                                <p>Secondary Event Sort (After Date/Time) - No longer applicable. All columns are sortable.</p>
+                                                <p>Devices to redirect to mobile site - No longer applicable as EMS Web App is now mobile-responsive.</p>
+                                                <p>Display Areas as Filter - Areas are incorporated into Locations for searching.</p>
+                                                <p>Allow User to Change Setup Count in Selected Locations Area - Permanently enabled as part of the new UX design.</p>
+                                                <p>Web Menus</p>
+                                                <p>All custom menus should be reviewed and updated/removed prior to updating in a live environment.</p>
+                                                <p>Custom menus can be parented under the Links or Help icon (for organization-specific help pages). Upgrading will re-parent all custom menus under Links.</p>
+                                                <p>Process templates can be sequenced under Create a Reservation menu but can no longer be moved to different menus.</p>
+                                                <p>Due to the new UI design, system-generated menus cannot be re-sequenced or relabeled, and you cannot modify their URLs.</p>
+                                                <p>Functional Changes</p>
+                                                <p>The following changes will show in your new installation due to the new UI design:</p>
+                                                <p>The EMS Web App has been made mobile-responsive. Therefore, mobile-specific pages such as MobileLogin.aspx have been removed. Everyday users can instead access mobile-responsive versions of the same pages used when accessing the EMS Web App on a desktop machine.</p>
+                                                <p>New Validated checkbox for everyday users:</p>
+                                                <p>Only applies to manual authentication creation and approval process, but checkbox appears for all users regardless.</p>
+                                                <p>Will be automatically selected for new users created in the EMS desktop client and via EMS Human Resources Toolkit.</p>
+                                                <p>New EMS Human Resources Toolkit installations will have the Validated checkbox included in update logic.</p>
+                                                <p>For tighter security, the SystemCheck.aspx page and the Ctrl+Shift+U keystroke shortcut to access SystemCheck.aspx have been removed for the EMS Web App. Some information previously included on SystemCheck.aspx has been relocated to options within the Web Administrator menu of the EMS Web App:</p>
+                                                <p>Clear Cache option</p>
+                                                <p>License information</p>
+                                                <p>Server and database connection string</p>
+                                                <p>Error Log Files</p>
+                                                <p>Application version and information (relocated to the About page)</p>
+                                                <p>Services, videoconferencing, and reservation management will not be available on the mobile version of the EMS Web App nor on the EMS Mobile App.</p>
+                                                <p>Template personalization will be automatically enabled for all process templates, which means that users will be able to set favorite templates to streamline navigation during the booking process. Favorite templates, for example, will be listed in a dropdown when the user begins booking space.</p>
+                                                <p>For organizations using the optional Floor Map module, the SVG file format is no longer supported for floor map icons/images.</p>
+                                                <p>Help Text Records</p>
+                                                <p>All help text records should be reviewed and updated/removed prior to updating in a live environment.</p>
+                                                <p>Home page web text records will now belong under Site Home and can differ for unauthenticated users vs. authenticated users.</p>
+                                                <p>For organizations who direct everyday users to manually create their own accounts, a new text record for Terms of Use has been introduced.</p>
+                                                <p>Some help text records have been removed (listed alphabetically by the database value LookupKey for tblWebText):</p>
+                                                <p>MenuItem</p>
+                                                <p>VEMSAccountManagementHelp</p>
+                                                <p>VEMSAddBookingHelpPopup</p>
+                                                <p>VEMS_BadBrowserHelp</p>
+                                                <p>VEMSBillingReferenceLookupHelp</p>
+                                                <p>VEMSClassicRequestPopup</p>
+                                                <p>VEMSEditAccountHelp</p>
+                                                <p>VEMSEditBookingHelpPopup</p>
+                                                <p>VEMSGroupLookupOnPage</p>
+                                                <p>VEMSLdapConfigurationHelp</p>
+                                                <p>VEMSLoginHelp</p>
+                                                <p>VEMSLoginPageMainContent</p>
+                                                <p>VEMSLogoutPageMainContent</p>
+                                                <p>VEMSLogoutScreenMessage</p>
+                                                <p>VEMSMissingOrInvalidExpectedQuerystring</p>
+                                                <p>VEMSPONumberLookupHelp</p>
+                                                <p>VEMSReservationDetailsHelp</p>
+                                                <p>VEMSReservationRecurrenceHelp</p>
+                                                <p>VEMSReservationSummaryCheckInSuccess</p>
+                                                <p>VEMSReservationSummaryCheckInUnavailable</p>
+                                                <p>VEMSRoomRequestHelpPopup</p>
+                                                <p>VEMSUDFDetailsHelp</p>
+                                                <p>VEMSUserPersonalizationHelp</p>
+                                                <p>Application title help record only applies to Default.aspx (HTML not recommended for this page).</p>
+                                                <p>CSS (Style) Settings</p>
+                                                <p>All custom CSS should be reviewed and updated/removed prior to upgrading in a live environment.</p>
+                                                <p>Custom.CSS now saved under EMSWebApp/Content/Custom/Custom.CSS instead of the Styles folder.</p>
+                                                <p>Language Translation</p>
+                                                <p>Language translation is still supported, but administrators should review the new site design to apply new translations where necessary.</p>
+                                                <p>All Other Customizations</p>
+                                                <p>Any custom logos, custom JavaScript, and all other customizations should be reviewed and updated/removed prior to updating in a live environment.</p>
+                                            </div>
+                                            <!-- <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Back Separator Print Forward;" />-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer center">
+                                <div class="container">
+                                    <div class="HomeMasterPageFooter outer-row">
+                                        <div><a href=""><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../../ContactUs.htm"> Contact </a>|<a href="mailto:success@emssoftware.com?subject=Documentation Feedback"> Feedback</a></a>
+                                            <p class="Copyright">© <span class="GeneralYear">2018</span> <span class="GeneralMy Company">EMS&#160;Software</span>, LLC. All Rights Reserved.</p>
+                                        </div>
+                                        <div class="footer-icons"><a href="" class="facebook"></a><a href="" class="twitter"></a><a href="" class="youtube"></a><a href="" class="linkedin"></a><a href="" class="googleplus"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script src="../../../Resources/Scripts/sidemenu.js">
+                            </script>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="26D_DesktopClient"
+    Link="/Content/ReleaseNotes/Version44.1/Update26D/EMSDesktopClient.htm" />
+  <TocEntry
+    Title="26D_Platform Services"
+    Link="/Content/ReleaseNotes/Version44.1/Update26D/EMSPlatformServices.htm" />
+</CatapultToc>

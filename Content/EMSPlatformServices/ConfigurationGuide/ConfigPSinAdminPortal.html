@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\Resources\MasterPages\emsPlatformServices.flmsp');">
+    <head><title mt-export-translate="no">Configuring Platform Services in the Admin Portal</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="true" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+            <MadCap:concept term="V44.1" />Configure Platform Services in the Admin Portal</h1>
+        <p>To begin configuration of EMS Platform Services, navigate to the Platform Services URL (e.g., https://yourcompany.com/ems-platform-api/admin).</p>
+        <p>From the EMS Platform Services Admin Portal, you can clear the cache, view license and application information, configure authentication methods, manage integration clients, and view logs.</p>
+        <p>EMS Platform Services Admin Portal consists of the following tabs:</p>
+        <ul class="unorder-list">
+            <li><a href="#HOME">Home—Perform Admin Functions</a>
+            </li>
+            <li><a href="#Integrations">Integrations—Manage EMS&#160;Integrations</a>
+            </li>
+            <li><a href="#Roles">Roles—Create New Roles or Edit Existing Ones</a>
+            </li>
+            <li><a href="#LOGS">Logs—View Global and Integration Logs</a>
+            </li>
+            <li><a href="#Authentication_Types">Header</a>
+            </li>
+            <li><a href="#Authentication_Types">OpenID</a>
+            </li>
+            <li><a href="#Authentication_Types">SAML</a>
+            </li>
+            <li><a href="#Auth">Auth Keys—Create New Keys</a>
+            </li>
+            <li><a href="#Calendaring">Calendaring—Enable GSuite Integration</a>
+            </li>
+            <li><a href="#Conferencing">Conferencing—Skype for Business</a>
+            </li>
+        </ul>
+        <p>
+            <img src="../Images/HomeTab.PNG" class="PDFlarge" />
+        </p>
+        <h2><a name="HOME"></a>HOME</h2>
+        <p>From the Home tab, you can perform Administrative Functions, such as <a href="#ClearCache">Clearing the Cache</a> and viewing License and Application Information.</p>
+        <p>
+            <img src="../Images/ConfigPlatform1.PNG" class="PDFlarge" />
+        </p>
+        <h3><a id="flushcache" name="ClearCache"></a>Clear the Cache</h3>
+        <p class="box-important"><span class="bold">IMPORTANT</span>: The cache must be cleared in EMS Platform Services&#160;and the EMS Web App whenever parameter changes are made in the EMS Desktop Client.&#160;</p>
+        <p>To clear your cache and have EMS&#160;Platform Services re-read the database parameters:</p>
+        <ol class="number-list">
+            <li>From <span class="bold">Home </span>tab, click the <span class="bold">Clear Cache</span> button.&#160;</li>
+            <li>You will receive a notification that the cache has been cleared successfully.</li>
+        </ol>
+        <h2><a name="Integrations"></a>Integrations</h2>
+        <p>You can manage your EMS Integrations from the Integrations tab. From here, you can <a href="#CreateNewIntegrationClient">create</a>, <MadCap:annotation MadCap:createDate="2018-06-11T13:35:32.5591000-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Link/bookmark?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-06-11T13:35:38.2849481-06:00">edit status</MadCap:annotation>, <MadCap:annotation MadCap:createDate="2018-06-11T13:35:46.0020940-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Link/bookmark?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-06-11T13:35:49.7291599-06:00">delete integration clients</MadCap:annotation>, or <a href="#ResetClientSecret">reset the Client Secret</a>.</p>
+        <h3><a name="CreateNewIntegrationClient"></a>Create a new Integration Client</h3>
+        <ol class="number-list">
+            <li>Navigate to the <span class="bold">Integrations </span>tab on the EMS&#160;Platform Services Admin Portal.  From this screen, you can view a list of integrations and their statuses.</li>
+            <li>To create a new integration client, click the <span class="bold">New Integration Client</span> button.</li>
+        </ol>
+        <p>
+            <img src="../Images/NewIntegrationClient.PNG" class="PDFlarge" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Create a client <span class="bold">Name</span>.</li>
+            <li>From the <span class="bold">Type </span>drop-down, choose either <span class="bold">Custom </span>or <span class="bold">Partner</span>.</li>
+            <li>Choose a <span class="bold">Role </span>from the drop-down. </li>
+            <li>The <span class="bold">Active </span>box is checked by default. This indicates that your integration is active. </li>
+            <li>Click <span class="bold">Enable Logging</span> to view the logs for this integration through the Log section of the Admin Portal.</li>
+            <li>Designate a <span class="bold">User Authentication</span> type.<ol MadCap:continue="true"><li>To designate the Client as an Everyday User, check the <span class="bold">Everyday User Authentication Required</span> box. If this box is not checked, all other options for everyday user authentication will be inaccessible. <a href="#Authentication_Types">Header</a>, <a href="#Authentication_Types">OpenID</a>, and <a href="#Authentication_Types">SAML</a> are configured from the EMS&#160;Platform Services Admin Portal.</li><li>Click the <span class="bold">User Authentication is Persistent</span> box to allow users to remain logged in.</li><li>The default for <span class="bold">Token Duration </span>is one day (1440 minutes). Customize this duration by entering a number of minutes in the field.</li><li>Choose an authentication method from the <span class="bold">Everyday User Authentication Method </span>dropdown. Your choices include:<ol MadCap:continue="true"><li><span class="bold">EMS&#160;Native</span>—Authenticates users via Everyday Application User (webuser) credentials stored in the EMS database. No additional authentication configuration is required.</li><li><span class="bold">Header</span>—If this authentication is chosen, you must navigate to the&#160;Header tab. Enter the <span class="bold">Header Variable</span> and click <span class="bold">Save Changes</span>. See Also:&#160;<a href="../../OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html">Portal Authentication Methods</a>. </li><li><span class="bold">LDAP</span>—This authentication provides single-sign-on capability using your organization’s LDAP environment and can be used in both intranet and internet deployments of EMS Everyday applications. See Also:&#160;<a href="../../OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html">LDAP&#160;Authentication</a>. </li><li><span class="bold">NTLM</span>—To configure NTLM authentication, click the <span class="bold">Enable NTLM For EMS Everyday User Authentication</span> box during installation. See <a href="../A_InstallationGuide/Platform_InstallPS.html#Verifying">Verifying NTLM&#160;Authentication</a> to complete this authentication. </li><li><span class="bold">OpenID</span>—If this authentication is chosen, navigate to the OpenID&#160;tab and complete the required fields. See Also:&#160;<a href="../../EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthen.html">OpenID&#160;Connect Authentication</a>. </li><li><span class="bold">SAML</span>—If this authentication is chosen, navigate to the SAML tab and complete the required fields. See&#160;Also: <a href="../../EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">SAML Authentication</a>.</li></ol></li></ol></li>
+        </ol>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160;The Header, OpenID, and SAML authentication settings are applied globally. All Integration Clients with these authentication types selected will default to these settings.</p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Based on client type, EMS Platform Services checks against license count, and current number of "active" integration clients. If license count is 0 or equal to the current number of "active" clients, then EMS Platform Services denies the request to add an additional client. You must set the existing client to inactive or increase your license count via normal licensing processes. Please refer to <a href="../A_InstallationGuide/Platform_LicenseRequirements.html">Licensing Requirements</a> for more details.</li>
+            <li>Click <span class="bold">Save Client</span>. A Client ID and Secret pair is generated once the Integration Client is successfully saved. Copy and save the Client Secret in a secure location. You will NOT&#160;be able to retrieve the Client Secret. To obtain a new Client Secret, you will need to reset it. See Also:&#160;<a href="#ResetClientSecret">Reset Client Secret</a>. </li>
+        </ol>
+        <p class="box-important"><span class="bold">IMPORTANT</span>:&#160;Partner and Custom types can be classified as either of the following client sub-categories: <span class="bold">User-based</span> and <span class="bold">Non-user based</span>. <br /><br /><span class="bold"><a name="User-based"></a>User-based</span>:&#160;User-based clients (EMS Mobile, EMS for Outlook) need to authenticate as a user in order to perform any actions. These clients need an integration client role with minimal access to the following API resources (above and beyond public resources):<br />/authentication<br />/logging<br /><br /><span class="bold"><a name="non-userbased"></a>Non-user based</span>:&#160;Non-user based clients (EMS Kiosk, EMS Room Sign App) provide functionality independent of users but also support user-like functionality (i.e., Check-In, on-the-fly room reservations). These clients need a role with wider access.<br /></p>
+        <h3><a name="ResetClientSecret"></a>Reset the Client Secret</h3>
+        <ol class="number-list">
+            <li>Navigate to the <span class="bold">Integrations</span> tab on the EMS&#160;Platform Services Admin Portal.</li>
+            <li>Select the <span class="bold">Integration Client</span>. </li>
+            <li>Click the <span class="bold">Reset Secret</span> button.</li>
+        </ol>
+        <h2><a name="Roles"></a>Roles</h2>
+        <p>Roles are separate entities responsible for capturing the rules associated with authorizing clients and users. These authentication roles allow users to access specific rest API routes. Roles are applied to clients, both <a href="#User-based">user-based</a> and <a href="#non-userbased">non-user based</a>.</p>
+        <p>From the <span class="bold">Roles </span>tab, you can <a href="#CreateRoles">create new roles</a> or <a href="#EditRoles">edit existing roles</a>.</p>
+        <h3><a name="CreateRoles"></a>Create New Roles</h3>
+        <ol class="number-list">
+            <li>Navigate to the <span class="bold">Roles </span>tab on the EMS&#160;Platform Services Admin Portal.</li>
+            <li>Click the <span class="bold">New Role </span>button.</li>
+            <li>Provide a unique Role Name in the <span class="bold">Name </span>field.</li>
+            <li>From the <span class="bold">Available Routes</span> list, move the routes you want associated to this role to the <span class="bold">Selected </span>list by using the Move (&gt;) arrow.</li>
+        </ol>
+        <h3><a name="EditRoles"></a>Edit Existing Role Routes</h3>
+        <ol class="number-list">
+            <li>Navigate to the <span class="bold">Roles </span>tab on the EMS&#160;Platform Services Admin Portal.</li>
+            <li>Click on the role route you want to edit. A list of routes associated with the role appears.</li>
+            <li>From the <span class="bold">Available Routes</span> list, move the routes you want associated to this role to the <span class="bold">Selected </span>list by using the Move (&gt;) arrow.</li>
+        </ol>
+        <h2><a name="LOGS"></a>LOGS</h2>
+        <p>You can view logs from the EMS&#160;Platform Services Admin Portal. You can <a href="#EditLOGDETAILS">edit log level details</a> through the default.json file. </p>
+        <p>There are two types of logs in EMS Platform Services:</p>
+        <ul class="unorder-list">
+            <li><span class="bold">Global logs</span>: Includes logs only for EMS Platform Services.</li>
+            <li><span class="bold">Integration logs</span>: Includes logs for a selected integration client. Enable logging for any integration client you wish to view logs for by choosing a Client from the dropdown.</li>
+        </ul>
+        <h3><a name="EditLOGDETAILS"></a>Edit Log Level Details</h3>
+        <p>ANKITA TO PROVIDE</p>
+        <h2><a name="Authentication_Types"></a>Header, Openid, and SAML&#160;(Authentication Options)</h2>
+        <p>EMS supports two authentication types for the EMS Platform Services Admin Portal:</p>
+        <ol class="mt-indent-1">
+            <li><span class="bold">EMS Native authentication</span>—An Everyday User with Everyday User Admin Security Template credentials can log into the EMS&#160;Platform Services Admin Portal. Verify license information is correctly reflected on the admin home page.</li>
+            <li><span class="bold">NTLM authentication</span>—During installation of EMS&#160;Platform Services, click the&#160;<span class="bold">Enable NTLM&#160;For EMS Everyday User Authentication</span>&#160;box.&#160;</li>
+        </ol>
+        <p>The following authentication methods are EMS&#160;Desktop Client-integration specific:</p>
+        <ol class="number-list">
+            <li><span class="bold">Header authentication</span>. See Also:&#160;<a href="../../OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html">Portal Authentication Methods</a>. </li>
+        </ol>
+        <p>
+            <img src="../Images/ConfigurePlatform_Header.png" class="PDFmedium" />
+        </p>
+        <ol class="number-list" MadCap:continue="true">
+            <li><span class="bold">LDAP authentication</span>—The LDAP Authentication method provides single-sign-on capability using your organization’s LDAP environment and can be used in both intranet and internet deployments of EMS applications (e.g., EMS Web App and EMS Mobile App). See Also:&#160;<a href="../../EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_LDAPAuthen.html">LDAP&#160;Authentication</a>. </li>
+            <li><span class="bold">Open ID authentication</span>—Authentication with Open ID requires configuration in EMS Mobile App before users can authenticate. See Also:&#160;<a href="../../EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthen.html">Open ID&#160;Connect Authentication</a>. </li>
+        </ol>
+        <p>
+            <img src="../Images/ConfigPlatform_OpenID.PNG" class="PDFmedium" />
+        </p>
+        <ol class="number-list" MadCap:continue="true">
+            <li><span class="bold">SAML authentication</span>—Authentication with SAML requires getting configuration set up for EMS Mobile App and EMS Web App prior to beginning the authentication flow. See Also:&#160;<a href="../../EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">SAML&#160;Authentication</a>.</li>
+        </ol>
+        <p>
+            <img src="../Images/ConfigPlatform_SAML.PNG" class="PDFmedium" />
+        </p>
+        <h2><a name="Auth"></a>Auth Keys</h2>
+        <p>Auth Keys are used for SAML&#160;certificates. See Also:&#160;<a href="../../EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">SAML&#160;Authentication</a>. </p>
+        <p>To create a new Auth Key:</p>
+        <ol class="number-list">
+            <li>Navigate to the <span class="bold">Auth Keys</span> tab in the EMS&#160;Platform Services Admin Portal.</li>
+            <li>Click <span class="bold">New Auth Key</span>. </li>
+            <li>Provide a <span class="bold">Purpose</span>.</li>
+            <li>Provide a date range for when the Auth Key will be valid by entering dates in the <b>Not Before</b> and <b>Not After</b> fields. </li>
+            <li>Enter a Public Key (PEM).</li>
+            <li>Enter a Private Key (PEM). </li>
+            <li>Click <span class="bold">Save Auth Key</span>. </li>
+        </ol>
+        <h2><a name="Calendaring"></a>Calendaring</h2>
+        <p>Google Calendar Integration will allow access to G Suite users’ Google Calendars to provide their free/busy statuses within EMS for scheduling meetings. Everyday Users can see attendee availability directly within the EMS Web App or Mobile App alongside space availability information from the EMS database. </p>
+        <h3><a name="EnableGSuite"></a>Enable G Suite Integration</h3>
+        <p class="box-note"><span class="bold">IMPORTANT</span>:&#160;A license must be imported prior to Enabling G Suite in the EMS&#160;Platform Services Admin Portal. See Also:&#160;<a href="../../GoogleSuiteIntegration/Config.htm">Configure G Suite Integration</a>. </p>
+        <ol class="number-list">
+            <li>Navigate to the <span class="bold">Calendaring </span>tab in the EMS&#160;Platform Services Admin Portal.</li>
+            <li>Upload the JSON&#160;file created for your <a href="https://console.developers.google.com/projectselector/apis/library">G Suite project</a>. Click <span class="bold">Browse </span>to navigate to the file and click <span class="bold">Save New Configuration File</span>.</li>
+            <li>Toggle between <span class="bold">Enabling </span>and <span class="bold">Disabling </span>G Suite Integration by using the Enable G Suite Integration button. </li>
+        </ol>
+        <p>
+            <img src="../Images/ConfigPlatform_GSuite.png" class="PDFmedium" />
+        </p>
+        <h2><a name="Conferencing"></a>Conferencing</h2>
+        <p>EMS integration of Skype for Business allows users to easily integrate instant messaging and audio/video conferencing to their meetings without the need for A/V support. Users can add, join, or modify/cancel Skype for Business meetings added to bookings. See Also:&#160;<a href="../../Skype/C_UserGuide/SkypeforBusiness_UserGuide_ConfigureSkypeforBusiness.html">Configure Skype for Business</a>. </p>
+        <p>To configure Skype for Business in the EMS&#160;Platform Services Admin Portal:</p>
+        <ol class="number-list">
+            <li>Navigate to the <span class="bold">Conferencing </span>tab.</li>
+            <li>Provide a <span class="bold">Client Name in the Azure Active Directory Client ID </span>field. This determines the ID of the registered application. </li>
+            <li>Provide the <span class="bold">Azure Active Directory Tenant</span>. This determines the name of the AAD tenant. </li>
+            <li>Provide the <span class="bold">Skype for Business AutoDiscover URL</span>. This performs autodiscovery to find the appropriate server to communicate with. Multiple URLs must be separated by commas and cannot contain any spaces. The client machine and the Web server should have access to the Autodiscover URL.</li>
+            <li>Choose a <span class="bold">Skype for Business Server Authentication Method</span> from the drop-down. This determines the authentication type that is used to generate a token. You can choose from the following authentication methods:<ol><li><span class="bold">NTLM</span></li><li><span class="bold">ADFS</span></li><li><span class="bold">Username/Password</span></li><li><span class="bold">Oauth (Online)</span></li></ol></li>
+        </ol>
+        <p>
+            <img src="../Images/ConfigPlatformConferencing.png" class="PDFmedium" />
+        </p>
+    </body>
+</html>

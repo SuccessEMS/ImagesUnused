@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="print" data-mc-toc-path="Older Releases|Version 44|EMS Cisco TMS (V44) (Optional Features)">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>EMS Cisco TMS Interface Configuration</title>
+        <link rel="icon" href="../../../Resources/Images/favicon.png" />
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="../../../Home.htm" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="2" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="How Can We Help You?" />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="How Can We Help You?">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <div class="content">
+                                <div id="contentBody">
+                                    <div class="row collapse">
+                                        <div class="topichero">
+                                            <div class="title-text">
+                                                <form class="search" action="#">
+                                                    <div class="search-bar search-bar-container needs-pie _Skins_HomeSearchBar mc-component">
+                                                        <input class="search-field needs-pie" type="search" placeholder="What can we help you find?" />
+                                                        <div class="search-filter-wrapper">
+                                                            <div class="search-filter">
+                                                                <div class="search-filter-content">
+                                                                    <ul>
+                                                                        <li>All Files</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-submit-wrapper" dir="ltr">
+                                                            <div class="search-submit" title="How Can We Help You?">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="nocontent">
+                                                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                </div>
+                                            </div>
+                                            <div class="sideContent small-3 columns" id="smartmenu-accordion">
+                                                <ul class="menu _Skins_SideMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/Master.js" data-mc-side-menu="True" data-mc-max-depth="-1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="False" data-mc-include-parent="False" data-mc-toc="True">
+                                                </ul>
+                                                <!-- <MadCap:menuProxy style="mc-toc-depth: 2;mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: False;mc-include-children: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/SidemenuTOC.fltoc" />-->
+                                            </div>
+                                            <div class="small-9 columns right-content">
+                                                <h1>EMS Cisco TMS Interface Configuration</h1>
+                                                <h2>Configuring Rooms and Resources&#160;</h2>
+                                                <p>Before activating the EMS – Cisco TMS Interface, the EMS video conference-room and/or resource list must be synchronized with a Cisco TMS video-conference system (e.g. room or resource).&#160; Systems are linked via the EMS Room/Resource&#160;External Reference&#160;field and the&#160;System ID&#160;in Cisco TMS.</p>
+                                                <p>
+                                                    <img src="../../../Resources/Images/CISCOV44/EMS Cisco TMS Interface Configuration.png" alt="https://success.emssoftware.com/@api/deki/files/117/image_22.png?revision=1&amp;size=bestfit&amp;width=996&amp;height=615" />
+                                                </p>
+                                                <p>Rooms can be accessed in EMS within&#160;Configuration &gt; Facilities &gt; Rooms.&#160; Resources can be accessed in EMS within&#160;Configuration &gt; Resources.</p>
+                                                <ol start="1">
+                                                    <li value="1">Verify that the Cisco TMS Booking API Web Service is installed and running by opening a browser and entering the web service URL (typically&#160;http://[ServerName]/TMS/external/booking/bookingservice.asmx).&#160;The following screen should appear:</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../../../Resources/Images/CISCOV44/EMS Cisco TMS Interface Configuration_1.png" alt="https://success.emssoftware.com/@api/deki/files/118/image_23.png?revision=1&amp;size=bestfit&amp;width=787&amp;height=468" />
+                                                </p>
+                                                <ol start="2">
+                                                    <li value="2">Log into the EMS desktop application using an EMS user account with Administrator-level access.</li>
+                                                    <li value="3">Click the&#160;Cisco TMS Activity&#160;button on the tool bar.&#160; The&#160;Cisco TMS Activity&#160;screen will appear.</li>
+                                                    <li value="4">Click the&#160;Settings&#160;menu option in the upper right-hand corner of the&#160;Cisco TMS Activity&#160;screen.&#160; The&#160;Cisco TMS Settings&#160;screen will appear.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../../../Resources/Images/CISCOV44/EMS Cisco TMS Interface Configuration_2.png" alt="https://success.emssoftware.com/@api/deki/files/119/image_24.png?revision=1&amp;size=bestfit&amp;width=903&amp;height=623" />
+                                                </p>
+                                                <ol start="5">
+                                                    <li value="5">On the&#160;Settings&#160;tab, specify values for the items listed by highlighting the record and clicking the&#160;Edit&#160;button.&#160; Once you configure a setting, click the&#160;OK&#160;button to save your value.</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">Enable Event Logging&#160;– Enables EMS – Cisco TMS Windows Service event logging.</li>
+                                                    <li value="2">Error Email Message&#160;- Subject line of error email notifications.</li>
+                                                    <li value="3">Error “From” Email Address&#160;- Email address (individual or distribution group) that error email notifications will be sent from.</li>
+                                                    <li value="4">Error “To” Email Address&#160;- Email address (individual or distribution group) that error email notifications will be sent to.</li>
+                                                    <li value="5">Number of days prior to Event&#160;- Specifies how far in advance of a video-conference date the EMS – Cisco TMS Interface should push the EMS booking(s) to Cisco TMS.</li>
+                                                    <li value="6">SMTP Authentication Type&#160;– Anonymous or Authenticated.</li>
+                                                    <li value="7">SMTP Password&#160;- Specify if SMTP Authentication Type = Authenticated.</li>
+                                                    <li value="8">SMTP Server&#160;– Used to relay error notification emails.</li>
+                                                    <li value="9">SMTP User Name&#160;– Specify if SMTP Authentication Type = Authenticated.</li>
+                                                    <li value="10">Use Reserved Time&#160;– If set to Yes, the booking reserved time will be passed to the Cisco TMS Booking API.&#160; Otherwise, the event time will be passed.</li>
+                                                    <li value="11">Web Service Authentication Type&#160;– Anonymous or Authenticated.</li>
+                                                    <li value="12">Web Service Domain&#160;– Cisco TMS Booking API Web Service Domain.</li>
+                                                    <li value="13">Web Service Password&#160;– Specify if Web Service Authentication Type = Authenticated.</li>
+                                                    <li value="14">Web Service URL&#160;- URL to Cisco TMS Booking API Web Service verified in Step 1.</li>
+                                                    <li value="15">Web Service User Name&#160;– Specify if Web Service Authentication Type = Authenticated.</li>
+                                                </ul>
+                                                <ul>
+                                                    <li value="1">Go to the&#160;Buildings&#160;tab.&#160; This tab is used to include/exclude EMS bookings scheduled in specific Buildings, Areas, or Views during processing.&#160; To select an item, highlight the record and click the&#160;&gt;&#160;button.</li>
+                                                    <li value="2">Go to the&#160;Event Types&#160;tab.&#160; This tab is used to include/exclude EMS bookings scheduled in specific Event Types during processing.</li>
+                                                    <li value="3">Go to the&#160;Status&#160;tab.&#160; This tab is used to include/exclude EMS bookings scheduled in specific Statues during processing.</li>
+                                                    <li value="4">Click the&#160;OK&#160;button to save your settings.</li>
+                                                </ul>
+                                                <h2>Advanced Configuration&#160;</h2>
+                                                <p>By default, the following booking information is transferred from EMS to the Cisco TMS Booking API:</p>
+                                                <table>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>
+                                                                <p>Field Description</p>
+                                                            </th>
+                                                            <th>
+                                                                <p>EMS Table.Column</p>
+                                                            </th>
+                                                            <th>
+                                                                <p>Cisco TMS Conference Object Property</p>
+                                                            </th>
+                                                            <th>
+                                                                <p>Direction</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <p>Reservation Event Name</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>tblReservation. EventName</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>Title</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>EMS &gt; Cisco TMS</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p>Booking Event Start Time</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>tblBooking. GMTTimeEventStart</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>StartTimeUTC</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>EMS &gt; Cisco TMS</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p>Booking Event End Time</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>tblBooking. GMTTimeEventEnd</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>EndTimeUTC</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>EMS &gt; Cisco TMS</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p>Room(s) and/or Resource(s)</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>tblRoom. ExternalReference</p>
+                                                                <p>and/or</p>
+                                                                <p>tblResource.ExternalReference</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>ParticipantID(s)</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>EMS &gt; Cisco TMS</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p>Room Phone(s)</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>tblRoomPhone.&#160; NA for resource.</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>NameOrNumber</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>EMS &gt; Cisco TMS</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p>Cisco TMS Conference ID</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>tblTMSActivity. ConferenceID</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>ConferenceID</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>Cisco TMS &gt; EMS</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p>TMS Error Information</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>tblTMSActivity.Error</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>FaultCode + FaultString</p>
+                                                            </td>
+                                                            <td>
+                                                                <p>Cisco TMS &gt; EMS</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p>Cisco TMS default values (defined within Cisco TMS) will be used for any properties not explicitly specified in the table above.&#160; Functionality is available to send additional Cisco TMS Conference Object properties using EMS reservation-level User Defined Fields (UDFs).&#160; This would allow you, for example, to create an EMS UDF named “Conference Type” and map that to the&#160;ConferenceType&#160;Cisco TMS Conference Object property.&#160; To map an EMS UDF to a Cisco TMS Conference Object property, do the following:</p>
+                                                <ol start="1">
+                                                    <li value="1">Create a reservation-level UDF in EMS within&#160;Configuration &gt; Other &gt; User Defined Fields.&#160; For information on how to configure an EMS UDF, please refer to the&#160;EMS Setup Guide.</li>
+                                                    <li value="2">Go to the&#160;Optional Cisco TMS Settings&#160;tab within the Cisco TMS Settings area (outlined in the section above).</li>
+                                                    <li value="3">Click the&#160;New&#160;button.&#160; The&#160;Optional Cisco TMS Setting&#160;screen will appear.</li>
+                                                    <li value="4">Select your Cisco TMS Conference Object property in the&#160;Cisco TMS Setting&#160;dropdown.&#160; Please refer to your Cisco TMS Booking API documentation for a listing/explanation of Cisco TMS Conference Object properties.</li>
+                                                    <li value="5">Select your EMS UDF in the&#160;User Defined Field&#160;dropdown.</li>
+                                                    <li value="6">Click the&#160;OK&#160;button to close the&#160;Optional Cisco TMS Setting&#160;screen.</li>
+                                                    <li value="7">Click the&#160;OK&#160;button to close the&#160;Cisco TMS Settings&#160;screen and save your configuration settings.</li>
+                                                </ol>
+                                                <h2>Additional Cisco TMS Conference Object Properties&#160;</h2>
+                                                <p>Conference Type</p>
+                                                <p>Bandwidth</p>
+                                                <p>Picture Mode</p>
+                                                <p>Encrypted</p>
+                                                <p>Data Conference</p>
+                                                <p>Password</p>
+                                                <p>Billing Code</p>
+                                                <p>ISDN Restrict</p>
+                                                <p>User Message Text</p>
+                                                <p>External Source ID</p>
+                                                <p>Participant Call Type</p>
+                                                <p>Numeric ID</p>
+                                                <p>External Primary Key</p>
+                                                <p>Show Extend Option</p>
+                                                <p>&#160;</p>
+                                            </div>
+                                            <!-- <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Back Separator Print Forward;" />-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer center">
+                                <div class="container">
+                                    <div class="HomeMasterPageFooter outer-row">
+                                        <div><a href=""><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../../ContactUs.htm"> Contact </a>|<a href="mailto:success@emssoftware.com?subject=Documentation Feedback"> Feedback</a></a>
+                                            <p class="Copyright">© <span class="GeneralYear">2018</span> <span class="GeneralMy Company">EMS&#160;Software</span>, LLC. All Rights Reserved.</p>
+                                        </div>
+                                        <div class="footer-icons"><a href="" class="facebook"></a><a href="" class="twitter"></a><a href="" class="youtube"></a><a href="" class="linkedin"></a><a href="" class="googleplus"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script src="../../../Resources/Scripts/sidemenu.js">
+                            </script>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>

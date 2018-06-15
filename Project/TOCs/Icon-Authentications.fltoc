@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Authentication Options"
+    Link="/Content/Authentication.htm">
+    <TocEntry
+      Title="Introduction"
+      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_WebAppVEMS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_Mobile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_MC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_Regics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="Integrated Authentication Considerations"
+      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="Integrated Windows Authentication"
+      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"></TocEntry>
+    <TocEntry
+      Title="Manage Everyday Users For Integrated Authentication"
+      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="Portal or Federated Authentication"
+      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"></TocEntry>
+    <TocEntry
+      Title="Portal Authentication Methods"
+      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"></TocEntry>
+    <TocEntry
+      Title="LDAP Authentication"
+      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_LDAPAuthen.html"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="Open ID Connect Authentication"
+      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthen.html"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Open ID Connect Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="Persistent Authentication"
+      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_PersistentAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="SAML Authentication"
+      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="Windows Authentication (NTLM)"
+      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_UseWindowsAuthenforMobile.html"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="EMS Native Authentication"
+      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_EMSNativeAuthen.html"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+  </TocEntry>
+</CatapultToc>

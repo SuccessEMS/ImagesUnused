@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="print" data-mc-toc-path="Configuration Guides|EMS Desktop Client|System Administration &gt; Tools">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Booking Move/Change Status Wizard</title>
+        <link rel="icon" href="../../../Resources/Images/favicon.png" />
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/DTC_V44_SysAdTools.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="../../../Home.htm" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="2" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="How Can We Help You?" />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="How Can We Help You?">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <div class="content">
+                                <div id="contentBody">
+                                    <div class="row collapse">
+                                        <div class="topichero">
+                                            <div class="title-text">
+                                                <form class="search" action="#">
+                                                    <div class="search-bar search-bar-container needs-pie _Skins_HomeSearchBar mc-component">
+                                                        <input class="search-field needs-pie" type="search" placeholder="What can we help you find?" />
+                                                        <div class="search-filter-wrapper">
+                                                            <div class="search-filter">
+                                                                <div class="search-filter-content">
+                                                                    <ul>
+                                                                        <li>All Files</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-submit-wrapper" dir="ltr">
+                                                            <div class="search-submit" title="How Can We Help You?">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div class="nocontent">
+                                                <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                </div>
+                                            </div>
+                                            <div class="sideContent small-3 columns" id="smartmenu-accordion">
+                                                <!--	<MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: True;mc-include-parent: False;mc-include-siblings: False;mc-include-children: True;" class="menu" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/Master.fltoc" />-->
+                                                <ul class="nocontent menu _Skins_SideMenu mc-component" data-mc-linked-toc="Data/Tocs/Icon_DesktopClient.js" data-mc-side-menu="True" data-mc-max-depth="-1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="False" data-mc-include-siblings="False" data-mc-include-parent="False" data-mc-toc="True">
+                                                </ul>
+                                            </div>
+                                            <div class="small-9 columns right-content">
+                                                <h1 class="Heading1">Booking Move/Change Status Wizard</h1>
+                                                <p>The Booking Move/Change Status Wizard allows you to change critical information (date and/or status) for&#160;multiple&#160;bookings across&#160;multiple reservations in a single step.</p>
+                                                <p class="note-box">Tip:&#160;Your users have access to the Change Booking Date/Time Wizard and the Change Booking Status Wizard in the Navigator. They can use these wizards to change critical booking information for multiple bookings in a single reservation.</p>
+                                                <p>This topic will provide the following information:</p>
+                                                <ul>
+                                                    <li value="1"><a href="#UseWizard" class="MCXref xref">Use the Booking Move/Change Status Wizard</a>
+                                                    </li>
+                                                    <li value="2"><a href="#Move" class="MCXref xref">Move Multiple Bookings to a Different Date&#160;</a>
+                                                    </li>
+                                                    <li value="3"><a href="#Change" class="MCXref xref">Change the status for multiple bookings&#160;</a>
+                                                    </li>
+                                                </ul>
+                                                <h2><a name="UseWizard"></a>Use the Booking Move/Change Status Wizard</h2>
+                                                <ol start="1">
+                                                    <li value="1">On the EMS main menu, click System Administration &gt; Tools &gt; Booking Move/Change Status Wizard.&#160;The Booking Move/Change Status Wizard opens.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../Resources/Images/DTC_V44_SysAdTools/Changing Booking Dates and.png" alt="emssg_SysAdminTools_image029.png" />
+                                                </p>
+                                                <ol start="2">
+                                                    <li value="2">In the Start Date field, enter the starting date for the bookings for which you are changing the date and/or status, and in the End Date field, enter the ending date.</li>
+                                                    <li value="3">Leave the default values set to (all) for the other search criteria (Building, Status, and Event Type), or optionally, select different values as needed.</li>
+                                                </ol>
+                                                <p class="note-box">Tip:&#160;For Building, you can select (all) buildings, a specific building, a specific area, or a specific view.</p>
+                                                <ol start="4">
+                                                    <li value="4">Click Get Data.&#160;The Select Bookings window opens. This window displays all the bookings that meet your search criteria.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../Resources/Images/DTC_V44_SysAdTools/Changing Booking Dates and_1.png" alt="emssg_SysAdminTools_image030.png" />
+                                                </p>
+                                                <ol start="5">
+                                                    <li value="5">Continue to one of the following:</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">To move multiple bookings to a different date below.</li>
+                                                    <li value="2">To change the status for multiple bookings.</li>
+                                                </ul>
+                                                <h2><a name="Move"></a>Move Multiple Bookings to a Different Date&#160;</h2>
+                                                <ol start="1">
+                                                    <li value="1">Select the booking, or CTRL-click to select the multiple bookings for which you are changing the date.</li>
+                                                    <li value="2">On the Select Bookings window, click Move.&#160;The Move Bookings dialog box opens.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../Resources/Images/DTC_V44_SysAdTools/Changing Booking Dates and_2.png" alt="emssg_SysAdminTools_image031.png" />
+                                                </p>
+                                                <ol start="3">
+                                                    <li value="3">Select a different value for the date, and then click OK. The Results window opens. This window displays a list of all the selected bookings, whether the date change was successful.</li>
+                                                </ol>
+                                                <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+                                                    <thead>
+                                                        <tr class="TableStyle-PatternedRows-Head-Header1">
+                                                            <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                                                                <p>Value</p>
+                                                            </th>
+                                                            <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                                                                <p>Description</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                                                <p>Reschedule Booking Earlier</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                                                                <p>The default value. Reschedule the bookings to an earlier date that is based on the number of days that you specify.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                                                <p>Reschedule Booking Later</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                                                                <p>Reschedule the bookings to a later date based on the number of days that you specify.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                            <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                                                                <p>Reschedule Booking to Specific Date</p>
+                                                            </td>
+                                                            <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                                                                <p>Reschedule the bookings to a new date that you specify.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p>The Results Window </p>
+                                                <p>
+                                                    <img src="../Resources/Images/DTC_V44_SysAdTools/Changing Booking Dates and_3.png" alt="emssg_SysAdminTools_image032.png" />
+                                                </p>
+                                                <p>Tip:&#160;Optionally, to view only the bookings for the selected reservation that were NOT successfully changed, select Show Unchanged Only. To view the details for a specific booking that was changed, select the booking, and then click Go To.</p>
+                                                <ol start="4">
+                                                    <li value="4">Click Close to close the Change Booking Date Results window and return to the Select Bookings window.</li>
+                                                    <li value="5">Repeat&#160;Step 1&#160;through&#160;Step 4&#160;until you have moved all the bookings as needed.</li>
+                                                    <li value="6">Do one of the following:</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">If you are done moving bookings to a different date, click Close to close the Select Bookings window.</li>
+                                                    <li value="2">If you also want to change the status for any of the bookings, continue&#160;to the next section.</li>
+                                                </ul>
+                                                <h2><a name="Change"></a>Change the status for multiple bookings&#160;</h2>
+                                                <ol start="1">
+                                                    <li value="1">Select the booking, or CTRL-click to select the multiple bookings for which you are changing the status.</li>
+                                                    <li value="2">On the Select Bookings window, click Change Status.&#160;The Change Status dialog box opens.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../Resources/Images/DTC_V44_SysAdTools/Changing Booking Dates and_4.png" alt="emssg_SysAdminTools_image033.png" />
+                                                </p>
+                                                <ol start="3">
+                                                    <li value="3">On the Status dropdown list, select the new status for the bookings.</li>
+                                                </ol>
+                                                <p class="note-box">Tip:&#160;If you select any type of Canceled status, then three additional fields—Reason, Who Canceled and Notes—are displayed on the Change Booking Status window. You must enter data in all three of these fields before you can continue in the Wizard.</p>
+                                                <ol start="4">
+                                                    <li value="4">Enter a Reconfirm Date if it is required for the new status that you selected.</li>
+                                                    <li value="5">Optionally, select Update Reservation Status to have the reservation-level status changed as well.</li>
+                                                    <li value="6">Click Finish.&#160;The Results window opens. This window displays a list of all the selected bookings, whether the status change was successful or not.</li>
+                                                </ol>
+                                                <p>
+                                                    <img src="../Resources/Images/DTC_V44_SysAdTools/Changing Booking Dates and_3.png" alt="emssg_SysAdminTools_image032.png" />
+                                                </p>
+                                                <p class="note-box">Tip:&#160;Optionally, to view only the bookings for the selected reservation that were NOT successfully changed, select Show Unchanged Only. To view the details for a specific booking that was changed, select the booking, and then click Go To.</p>
+                                                <ol start="7">
+                                                    <li value="7">Click Close to close the Change Booking Status Results window and return to the Select Bookings window.</li>
+                                                    <li value="8">Repeat&#160;Step 1&#160;through&#160;Step 7&#160;until you have changed the status for all the bookings as needed.</li>
+                                                    <li value="9">Do one of the following:</li>
+                                                </ol>
+                                                <ul>
+                                                    <li value="1">If you are done changing the status for the bookings, click Close to close the Select Bookings window.</li>
+                                                    <li value="2">If you also want to move any of the bookings to a new date, see section above, “To change the status for multiple bookings”.</li>
+                                                </ul>
+                                            </div>
+                                            <!-- <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Back Separator Print Forward;" />-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer center">
+                                <div class="container">
+                                    <div class="HomeMasterPageFooter outer-row">
+                                        <div><a href=""><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../../ContactUs.htm"> Contact </a>|<a href="mailto:success@emssoftware.com?subject=Documentation Feedback"> Feedback</a></a>
+                                            <p class="Copyright">© <span class="GeneralYear">2018</span> <span class="GeneralMy Company">EMS&#160;Software</span>, LLC. All Rights Reserved.</p>
+                                        </div>
+                                        <div class="footer-icons"><a href="" class="facebook"></a><a href="" class="twitter"></a><a href="" class="youtube"></a><a href="" class="linkedin"></a><a href="" class="googleplus"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script src="../../../Resources/Scripts/sidemenu.js">
+                            </script>
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>
